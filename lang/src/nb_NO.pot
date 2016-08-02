@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d Pending"
+msgid_plural "%d Pending"
+msgstr[0] "%d venter"
+msgstr[1] "%d venter"
+
+msgid "%d Tweeted"
+msgid_plural "%d Tweeted"
+msgstr[0] "%d tvitret"
+msgstr[1] "%d tvitret"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d time"
+msgstr[1] "%d timer"
+
+msgid "%d mins"
+msgstr "%d min"
+
+msgid "%d times"
+msgstr "%d ganger"
+
+msgid "%s (Missing)"
+msgstr "%s (mangler)"
+
+msgid "%s items"
+msgstr "%s elementer"
+
+msgid "%s%d%s license(s) remaining."
+msgstr "%s%d%s lisens(er) igjen."
+
+msgid "(%d Pending)"
+msgid_plural "(%d Pending)"
+msgstr[0] "(%d venter)"
+msgstr[1] "(%d venter)"
+
+msgid "(%d Tweeted)"
+msgid_plural "(%d Tweeted)"
+msgstr[0] "(%d tvitret)"
+msgstr[1] "(%d tvitret)"
+
+msgid "* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr "* Du kan tilbakestille støtte og lisenser for automatisk oppgradering én gang per %d dag."
+
+msgid ", %d mins"
+msgstr ", %d min"
+
+msgid "1 time"
+msgstr "1 gang"
+
+msgid "ACTIVATION REQUIRED"
+msgstr "AKTIVERING PÅKREVD"
+
+msgid "API connection failed"
+msgstr "API-tilkobling feilet"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Account + Licenses"
+msgstr "Konto + lisenser"
+
+msgid "Account E-Mail"
+msgstr "Kontoe-post"
+
+msgid "Account Information"
+msgstr "Kontoinformasjon"
+
+msgid "Accounts"
+msgstr "Kontoer"
+
+msgid "Accurate"
+msgstr "Nøyaktig"
+
+msgid "Activate This WordPress installation &raquo;"
+msgstr "Aktiver denne WordPress-installasjonen &raquo;"
+
+msgid "Activate license"
+msgstr "Aktiver lisens"
+
+msgid "Active Site Licenses"
+msgstr "Aktive sidelisenser"
+
+msgid "Add"
+msgstr "Legg til"
+
+msgid "Add Account"
+msgstr "Legg til konto"
+
+msgid "Add An Account"
+msgstr "Legg til en konto"
+
+msgid "Add New Hashtag"
+msgstr "Legg til ny hashtag"
+
+msgid "Add UTM tracking tags to Tweeted URLs"
+msgstr "Legg til UTM sporingsetiketter til tweetede URLer"
+
+msgid "Add a site license &raquo;"
+msgstr "Legg til en sidelisens &raquo;"
+
+msgid "Add an account"
+msgstr "Legg til en konto"
+
+msgid "Adds UTM tags to the URLs created by WordTwit Pro. Requires a URL shortener other than 'WordPress' to be used."
+msgstr "Legger til UTM-etiketter til URLene opprettet av WordTwit Pro. Krever bruk av en annen URL-forkorter enn 'WordPress'."
+
+msgid "Admin panel language"
+msgstr "Språk for adminpanel"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Advanced"
+msgstr "Avansert"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "All sites can publish to this account"
+msgstr "Alle sider kan publisere til denne kontoen"
+
+msgid "Allow other WordPress users to add their own Twitter accounts"
+msgstr "Tillat at andre WordPress-brukere legger til sine egne Twitter-kontoer"
+
+msgid "Are you sure would would like to publish the tweet(s) for this post?"
+msgstr "Er du sikker på at du vil publisere tweets for denne posten?"
+
+msgid "At a Glance"
+msgstr "En oversikt"
+
+msgid "Authentication signature for YOURLS"
+msgstr "Verifiseringssignature for YOURLS"
+
+msgid "Authorize New Account"
+msgstr "Autoriser ny konto"
+
+msgid "Auto-detect"
+msgstr "Auto-oppdag"
+
+msgid "Automatic"
+msgstr "Automatisk"
+
+msgid "Bit.ly API key"
+msgstr "Bit.ly API-nøkkel"
+
+msgid "Bit.ly username"
+msgstr "Bit.ly brukernavn"
+
+msgid "Can be found in the YOURLS administration panel."
+msgstr "Finnes i YOURLS-administrasjonspanelet."
+
+msgid "Choose from recent Hashtags"
+msgstr "Velg fra nylig brukte hashtags"
+
+msgid "Click the 'Add Account' button above to add your first Twitter account"
+msgstr "Klikk på knappen 'Legg til konto' over for å legge til din første Twitter-konto."
+
+msgid "Consumer Key"
+msgstr "Forbrukernøkkel"
+
+msgid "Consumer Secret"
+msgstr "Forbrukerhemmelighet"
+
+msgid "Curl"
+msgstr "Curl"
+
+msgid "Custom"
+msgstr "Tilpasset"
+
+msgid "Custom Application"
+msgstr "Tilpasset applikasjon"
+
+msgid "Custom Content"
+msgstr "Egendefinert innhold"
+
+msgid "Custom tweet template"
+msgstr "Egendefinert tweetmal"
+
+msgid "Date/Time"
+msgstr "Dato/tid"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Defaults restored"
+msgstr "Standarder gjenopprettet"
+
+msgid "Delay"
+msgstr "Forsinkelse"
+
+msgid "Delay the first tweet by"
+msgstr "Utsett den første tweeten med"
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "Delete log item"
+msgstr "Slett loggelement"
+
+msgid "Disable warning message when retweeting from the post widget"
+msgstr "Deaktiver varselsmelding ved retvitring fra postwidget"
+
+msgid "Disabled for this post"
+msgstr "Deaktivert for denne posten"
+
+msgid "Do not tweet"
+msgstr "Ikke tvitre"
+
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+msgid "Done"
+msgstr "Ferdig"
+
+msgid "Edit"
+msgstr "Rediger"
+
+msgid "Editors"
+msgstr "Redaktører"
+
+msgid "Editors and Authors"
+msgstr "Redaktører og forfattere"
+
+msgid "Enter a comma-separated list of custom post types that will be Tweeted automatically."
+msgstr "Skriv inn en kommaseparert liste over egendefinerte posttyper som skal tvitres automatisk."
+
+msgid "Failed"
+msgstr "Feilet"
+
+msgid "Followers"
+msgstr "Følgere"
+
+msgid "From the BraveNewCode Blog"
+msgstr "Fra BraveNewCode-bloggen"
+
+msgid "Full URL path to yourls-api.php"
+msgstr "Fyll ut URL-bane til yourls-api.php"
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "Get started with Activation &raquo;"
+msgstr "Kom i gang med aktiveringen &raquo;"
+
+msgid "Hashtags"
+msgstr "Hashtags"
+
+msgid "Incorrect"
+msgstr "Feil"
+
+msgid "Individual tweet template"
+msgstr "Individuell tweetmal"
+
+msgid "LICENSED"
+msgstr "LISENSIERT"
+
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+msgid "License Remaining"
+msgid_plural "Licenses Remaining"
+msgstr[0] "Gjenværende lisens"
+msgstr[1] "Gjenværende lisenser"
+
+msgid "License accepted, thank you for supporting WordTwit Pro!"
+msgstr "Lisens akseptert, takk for at du støtter WordTwit Pro!"
+
+msgid "List of custom post types to Tweet"
+msgstr "Liste over egendefinerte posttyper som kan tvitres"
+
+msgid "Loading licenses from the BNC server..."
+msgstr "Laster lisenser fra BNC-serveren..."
+
+msgid "Loading..."
+msgstr "Laster..."
+
+msgid "Long URLs will automatically be shortened using the specified URL shortener"
+msgstr "Lange URLer vil automatisk forkortes med den spesifiserte URL-forkorteren"
+
+msgid "Make Private"
+msgstr "Gjør privat"
+
+msgid "Make Shared"
+msgstr "Del"
+
+msgid "Make Site-wide"
+msgstr "Bruk på hele siden"
+
+msgid "Manage Licenses"
+msgstr "Administrer lisenser"
+
+msgid "Manual"
+msgstr "Manuell"
+
+msgid "Me"
+msgstr "Meg"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "My Account"
+msgstr "Min konto"
+
+msgid "New [post_type]: %s"
+msgstr "Ny [post_type]: %s"
+
+msgid "New [post_type]: [title] - [link] [hashtags]"
+msgstr "Ny [post_type]: [title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [full_author] - [link] [hashtags]"
+msgstr "Ny [post_type]: [title] av [full_author] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [short_author] - [link] [hashtags]"
+msgstr "Ny [post_type]: [title] av [short_author] - [link] [hashtags]"
+
+msgid "No accounts configured yet"
+msgstr "Ingen kontoer konfigurert"
+
+msgid "No issues"
+msgstr "Ingen anliggender"
+
+msgid "No tweets found"
+msgstr "Ingen tweets funnet"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Oops! Try saving again."
+msgstr "Oops! Prøv å lagre igjen."
+
+msgid "Options"
+msgstr "Alternativer"
+
+msgid "Others can publish to this account"
+msgstr "Andre kan publisere til denne kontoen"
+
+msgid "Overview"
+msgstr "Oversikt"
+
+msgid "Owned by %s"
+msgstr "Eid av %s"
+
+msgid "Pending"
+msgstr "Venter"
+
+msgid "Please enter your Account E-Mail and License Key to begin the license activation process, or %spurchase a license &raquo;%s"
+msgstr "Skriv inn kontoe-posten din og lisensnøkkelen for å starte aktiveringsprosessen for lisens, eller %skjøp en lisens &raquo;%s"
+
+msgid "Plugin Status"
+msgstr "Status programtillegg"
+
+msgid "Private"
+msgstr "Privat"
+
+msgid "Publish Now"
+msgstr "Publiser nå"
+
+msgid "Publish Status"
+msgstr "Publiser status"
+
+msgid "Publish this tweet"
+msgstr "Publiser denne tweeten"
+
+msgid "Published"
+msgstr "Publisert"
+
+msgid "Published Tweet"
+msgid_plural "Published Tweets"
+msgstr[0] "Publisert tweet"
+msgstr[1] "Publiserte tweets"
+
+msgid "Purchase More Licenses"
+msgstr "Kjøp flere lisenser"
+
+msgid "Purchase a license"
+msgstr "Kjøp en lisens"
+
+msgid "Refresh"
+msgstr "Oppdater"
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Remove license?"
+msgstr "Fjerne lisens?"
+
+msgid "Reset"
+msgstr "Tilbakestill"
+
+msgid "Reset Licenses Now"
+msgstr "Tilbakestill lisenser nå"
+
+msgid "Reset Settings"
+msgstr "Tilbakestill innstillinger"
+
+msgid "Reset all WordTwit Pro admin settings?"
+msgstr "Tilbakestille alle admininnstillinger for WordTwit Pro?"
+
+msgid "Reset to Automatic to re-enable hashtags"
+msgstr "Tilbakestill til automatisk for å aktivere hashtags på nytt"
+
+msgid "Retweet"
+msgstr "Retweet"
+
+msgid "Right Now"
+msgstr "Akkurat nå"
+
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+msgid "Saving"
+msgstr "Lagrer"
+
+msgid "Saving..."
+msgstr "Lagrer..."
+
+msgid "Schedule"
+msgstr "Tidsplan"
+
+msgid "Scheduled"
+msgstr "Fastsatt"
+
+msgid "Scheduled Tweet"
+msgid_plural "Scheduled Tweets"
+msgstr[0] "Fastsatt tweet"
+msgstr[1] "Fastsatte tweets"
+
+msgid "Screen Name"
+msgstr "Kallenavn"
+
+msgid "Security check failed"
+msgstr "Sikkerhetssjekk mislykket"
+
+msgid "Separate multiple hashtags with commas"
+msgstr "Skill flere hashtags med komma"
+
+msgid "Separated by"
+msgstr "Separert med"
+
+msgid "Server Time"
+msgstr "Servertid"
+
+msgid "Settings saved!"
+msgstr "Innstillinger lagret!"
+
+msgid "Shared"
+msgstr "Delt"
+
+msgid "Shorten post titles to maintain tweet character limit"
+msgstr "Forkort posttitler for å overholde tegnbegrensninger"
+
+msgid "Shortening Method"
+msgstr "Forkortelsesmetode"
+
+msgid "Site-wide"
+msgstr "Hele siden"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Support Forums"
+msgstr "Støttefora"
+
+msgid "Terms &amp; Legal"
+msgstr "Betingelser &amp; rettslig"
+
+msgid "Thank you for supporting us!"
+msgstr "Takk for din støtte!"
+
+msgid "The BraveNewCode Blog timed out."
+msgstr "BraveNewCode-bloggen ble tidsutkoplet."
+
+msgid "The Twitter API requires the time on your server to be correct.  You can use this field to add or subtract an amount of time. Number is in seconds only. e.g. 3600 (equals 1 hour)"
+msgstr "Twitter API krever at tiden på serveren din er korrekt. Du kan bruke dette feltet til å legge til eller trekke fra tid. Tall er kun i sekunder. F.eks. 3600 (lik 1 time)"
+
+msgid "The import key you used is not valid.  Please try a copy/paste of your key again."
+msgstr "Importnøkkelen du brukte er ikke gyldig. Prøv å kopiere/lime inn nøkkelen din på nytt."
+
+msgid "The professional version of the popular WordPress to Twitter publishing tool."
+msgstr "Den profesjonelle versjonen av det populære publiseringsverktøyet WordPress to Twitter."
+
+msgid "There are currently no accounts configured."
+msgstr "Ingen kontoer er konfigurerte akkurat nå."
+
+msgid "There are no Twitter accounts registered"
+msgstr "Det finnes ingen registrerte Twitter-kontoer"
+
+msgid "This Account E-Mail/License Key combination you have entered was rejected by the BraveNewCode server. Please try again."
+msgstr "Kombinasjonen av kontoe-post/lisensnøkkel du skrev inn ble avvist av BraveNewCode-serveren. Prøv på nytt."
+
+msgid "This copy of WordTwit Pro %s is unlicensed."
+msgstr "Denne utgaven av WordTwit Pro %s er ikke lisensiert."
+
+msgid "This copy of WordTwit Pro is partially activated."
+msgstr "Denne utgaven av WordTwit Pro er delvis aktivert."
+
+msgid "This operation cannot be undone."
+msgstr "Denne handlingen kan ikke omgjøres"
+
+msgid "Tracking"
+msgstr "Sporing"
+
+msgid "Tweet"
+msgstr "Tweet"
+
+msgid "Tweet Log"
+msgstr "Tweetlogg"
+
+msgid "Tweet Now"
+msgstr "Tvitre nå"
+
+msgid "Tweet Templates"
+msgstr "Tweetmaler"
+
+msgid "Tweet URLs will be changed to pass Twitter's duplicate tweet restrictions."
+msgstr "Tweet-URLer vil endres for å bli godkjent av Twitters begrensninger for duplikater."
+
+msgid "Tweet mode is manual"
+msgstr "Tweetmodus er manuelt"
+
+msgid "Tweet time offset to correct server mismatch. %sEstimate now%s"
+msgstr "Tweettid justert for å samsvare med serveren. %sBeregn nå%s"
+
+msgid "TwitBoard"
+msgstr "TwitBoard"
+
+msgid "Twitter API Compliance"
+msgstr "Overholdelse av Twitter API"
+
+msgid "Twitter Account"
+msgid_plural "Twitter Accounts"
+msgstr[0] "Twitter-konto"
+msgstr[1] "Twitter-kontoer"
+
+msgid "Twitter Accounts"
+msgstr "Twitter-kontoer"
+
+msgid "Twitter.com Status"
+msgstr "Twitter.com status"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "UNLICENSED"
+msgstr "IKKE LISENSIERT"
+
+msgid "URL Shortener"
+msgstr "URL-forkorter"
+
+msgid "UTM campaign tag"
+msgstr "UTM-kampanjeetikett"
+
+msgid "UTM medium tag"
+msgstr "UTM-mediumetikett"
+
+msgid "UTM source tag"
+msgstr "UTM kildeetikett"
+
+msgid "Unable to verify WordTwit Pro nonce"
+msgstr "Kan ikke verifisere WordTwit Pro"
+
+msgid "Unknown"
+msgstr "Ukjent"
+
+msgid "Unpublished"
+msgstr "Ikke publisert"
+
+msgid "Unpublished - Old Post"
+msgstr "Ikke publisert - gammel post"
+
+msgid "Up to date"
+msgstr "Til dato"
+
+msgid "Updates"
+msgstr "Oppdateringer"
+
+msgid "Upgrade Available"
+msgstr "Oppgradering tilgjengelig"
+
+msgid "Valid tags are [post_type], [link], [title], [full_author], [short_author], and [hashtags]."
+msgstr "Gyldige etiketter er [post_type], [link], [title], [full_author], [short_author] og [hashtags]."
+
+msgid "Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts."
+msgstr "Advarsel: Dersom du endrer forbrukernøkkelen eller hemmeligheten din må du autorisere alle kontoene dine på nytt."
+
+msgid "When you publish tweets they'll appear here."
+msgstr "Når du publiserer tweets vil de vises her."
+
+msgid "Will be tweeted"
+msgstr "Vil tvitres"
+
+msgid "WordPress users levels authorized to add Twitter accounts"
+msgstr "WordPress-brukere autoriserte til å legge til Twitter-kontoer"
+
+msgid "WordTwit News"
+msgstr "WordTwit-nyheter"
+
+msgid "WordTwit Pro"
+msgstr "WordTwit Pro"
+
+msgid "WordTwit Pro Changelog"
+msgstr "WordTwit Pro endringslogg"
+
+msgid "WordTwit Pro is a trademark of %sBraveNewCode Inc.%s"
+msgstr "WordTwit Pro er et varemerke som tilhører %sBraveNewCode Inc.%s"
+
+msgid "WordTwit Settings"
+msgstr "WordTwit-innstillinger"
+
+msgid "WordTwit Version"
+msgstr "WordTwit-versjon"
+
+msgid "You can also create %sa custom application via Twitter%s and have WordTwit tweet on from your application's namesake. Clear both of these fields to use the default Twitter OAuth configuration."
+msgstr "Du kan også opprette %sen egendefinert applikasjon via Twitter%s og få WordTwit til å tvitre fra applikasjonen din. Fjern innholdet i begge disse feltene for å bruke standardkonfigurasjonen for Twitter OAuth."
+
+msgid "You can enter a custom tweet template to be used here."
+msgstr "Du kan skrive inn en egendefinert tweetmal som skal brukes her."
+
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr "Du har aktivert disse sidene for automatisk oppgradering og støtte:"
+
+msgid "You have not activated a license for this WordPress installation."
+msgstr "Du har ikke aktivert en lisens for denne WordPress-installasjonen."
+
+msgid "You have not added any Twitter accounts yet"
+msgstr "Du har ikke lagt til noen Twitter-kontoer enda"
+
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr "Du kan tilbakestille lisenser igjen om %d dag(er)."
+
+msgid "Your Account E-Mail and License Key are required to enable site licenses for support and auto-upgrades with WordTwit Pro."
+msgstr "Kontoe-posten din og lisensnøkkelen er påkrevd for å aktivere sidelisenser for støtte og automatiske oppgraderinger med WordTwit Pro."
+
+msgid "Your Account E-Mail and License Key have been accepted. <br />Next, %sconnect a site license%s to this domain to enable support and automatic upgrades."
+msgstr "Kontoe-posten din og lisensnøkkelen er akseptert. <br />Nå kan du %skoble en sidelisens%s til dette domenet for å aktivere støtte og automatiske oppgraderinger."
+
+msgid "Your tweet is too long. It must be 140 characters or less."
+msgstr "Tweeten din er for lang. Den må inneholde 140 tegn eller færre."
+
+msgid "[title] by [full_author] - [link] [hashtags]"
+msgstr "[title] av [full_author] - [link] [hashtags]"
+
+msgid "[title] by [short_author] - [link] [hashtags]"
+msgstr "[title] av [short_author] - [link] [hashtags]"
+
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+msgid "private"
+msgstr "privat"
+
+msgid "shared"
+msgstr "delt"

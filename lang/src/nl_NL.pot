@@ -1,0 +1,645 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d Pending"
+msgid_plural "%d Pending"
+msgstr[0] "%d in afwachting"
+msgstr[1] "%d in afwachting"
+
+msgid "%d Tweeted"
+msgid_plural "%d Tweeted"
+msgstr[0] "%d getweet"
+msgstr[1] "%d getweet"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d uur"
+msgstr[1] "%d uur"
+
+msgid "%d mins"
+msgstr "%d minuten"
+
+msgid "%d times"
+msgstr "%d keren"
+
+msgid "%s (Missing)"
+msgstr "%s (onbreekt)"
+
+msgid "%s items"
+msgstr "%s items"
+
+msgid "%s%d%s license(s) remaining."
+msgstr "%s%d%s resterende licentie(s)."
+
+msgid "* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr "* Je kunt alle support- en auto-upgrade-licenties om de %d dagen opnieuw instellen."
+
+msgid ", %d mins"
+msgstr ", %d min."
+
+msgid "1 time"
+msgstr "1 keer"
+
+msgid "ACTIVATION REQUIRED"
+msgstr "ACTIVATIE VEREIST"
+
+msgid "API connection failed"
+msgstr "API-verbinding mislukt"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Account + Licenses"
+msgstr "Account + licenties"
+
+msgid "Account E-Mail"
+msgstr "E-mailadres van account"
+
+msgid "Account Information"
+msgstr "Accountinformatie"
+
+msgid "Accounts"
+msgstr "Accounts"
+
+msgid "Accurate"
+msgstr "Juist"
+
+msgid "Activate This WordPress installation &raquo;"
+msgstr "Deze WordPress-installatie activeren &raquo;"
+
+msgid "Activate license"
+msgstr "Licentie activeren"
+
+msgid "Active Site Licenses"
+msgstr "Actieve site-licenties"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Add Account"
+msgstr "Account toevoegen"
+
+msgid "Add An Account"
+msgstr "Een account toevoegen"
+
+msgid "Add New Hashtag"
+msgstr "Nieuwe hashtag toevoegen"
+
+msgid "Add UTM tracking tags to Tweeted URLs"
+msgstr "UTM-tags die links meten, toevoegen aan getweete URL's"
+
+msgid "Add a site license &raquo;"
+msgstr "Een site-licentie toevoegen &raquo;"
+
+msgid "Add an account"
+msgstr "Een account toevoegen"
+
+msgid "Adds UTM tags to the URLs created by WordTwit Pro. Requires a URL shortener other than 'WordPress' to be used."
+msgstr "Voegt UTM-tags toe aan de URL's gecreëerd door WordTwit Pro. Hiervoor is er een andere URL-verkorter nodig dan 'WordPress'."
+
+msgid "Admin panel language"
+msgstr "Taal van het admin-menu"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "All"
+msgstr "Alles"
+
+msgid "All sites can publish to this account"
+msgstr "Alle sites kunnen naar deze account publiceren"
+
+msgid "Allow other WordPress users to add their own Twitter accounts"
+msgstr "Laat andere WordPress-gebruikers toe om hun eigen Twitter-accounts toe te voegen"
+
+msgid "Are you sure would would like to publish the tweet(s) for this post?"
+msgstr "Weet je zeker dat je de tweet(s) voor deze post wilt publiceren?"
+
+msgid "At a Glance"
+msgstr "In een oogopslag"
+
+msgid "Authentication signature for YOURLS"
+msgstr "Handtekening als authentificatie van YOURLS"
+
+msgid "Authorize New Account"
+msgstr "Autorisatie geven voor nieuwe account"
+
+msgid "Auto-detect"
+msgstr "Automatisch detecteren"
+
+msgid "Automatic"
+msgstr "Automatisch"
+
+msgid "Bit.ly API key"
+msgstr "Bit.ly API-sleutel"
+
+msgid "Bit.ly username"
+msgstr "Bit.ly-gebruikersnaam"
+
+msgid "Can be found in the YOURLS administration panel."
+msgstr "Kan worden gevonden in het YOURLS-administratiemenu."
+
+msgid "Choose from recent Hashtags"
+msgstr "Selecteren uit recente Hashtags"
+
+msgid "Click the 'Add Account' button above to add your first Twitter account"
+msgstr "Klik op de bovenstaande knop 'Account toevoegen' om je eerste Twitter-account toe te voegen"
+
+msgid "Consumer Key"
+msgstr "Gebruikerssleutel"
+
+msgid "Consumer Secret"
+msgstr "Geheim van klant"
+
+msgid "Curl"
+msgstr "Curl"
+
+msgid "Custom"
+msgstr "Specifiek"
+
+msgid "Custom Application"
+msgstr "Specifieke applicatie"
+
+msgid "Custom Content"
+msgstr "Specifieke inhoud"
+
+msgid "Custom tweet template"
+msgstr "Specifieke tweet-template"
+
+msgid "Date/Time"
+msgstr "Datum/Tijd"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Defaults restored"
+msgstr "Standaardwaarden hersteld"
+
+msgid "Delay"
+msgstr "Vertraging"
+
+msgid "Delay the first tweet by"
+msgstr "Stel de eerste tweet uit met"
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Delete log item"
+msgstr "Log-item verwijderen"
+
+msgid "Disable warning message when retweeting from the post widget"
+msgstr "Waarschuwing deactiveren wanneer er opnieuw getweet wordt van de post-widget"
+
+msgid "Disabled for this post"
+msgstr "gedeactiveerd voor deze post"
+
+msgid "Do not tweet"
+msgstr "Niet tweeten"
+
+msgid "Documentation"
+msgstr "Documentatie"
+
+msgid "Done"
+msgstr "Gereed"
+
+msgid "Edit"
+msgstr "Bewerken"
+
+msgid "Editors"
+msgstr "Uitgevers"
+
+msgid "Editors and Authors"
+msgstr "Uitgevers en auteurs"
+
+msgid "Enter a comma-separated list of custom post types that will be Tweeted automatically."
+msgstr "Voer een kommagescheiden lijst in met specifieke posttypes die automatisch zullen worden getweet."
+
+msgid "Failed"
+msgstr "Mislukt"
+
+msgid "Followers"
+msgstr "Volgers"
+
+msgid "From the BraveNewCode Blog"
+msgstr "Van de BraveNewCode Blog"
+
+msgid "Full URL path to yourls-api.php"
+msgstr "Volledige URL-pad naar yourls-api.php"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Get started with Activation &raquo;"
+msgstr "Activatie starten &raquo;"
+
+msgid "Hashtags"
+msgstr "Hashtags"
+
+msgid "Incorrect"
+msgstr "fout"
+
+msgid "Individual tweet template"
+msgstr "Individuele tweet-template"
+
+msgid "LICENSED"
+msgstr "MET LICENTIE"
+
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+msgid "License Remaining"
+msgid_plural "Licenses Remaining"
+msgstr[0] "Resterende licentie"
+msgstr[1] "Resterende licenties"
+
+msgid "License accepted, thank you for supporting WordTwit Pro!"
+msgstr "Licentie geaccepteerd, bedankt om WordTwit Pro te steunen!"
+
+msgid "List of custom post types to Tweet"
+msgstr "Lijst van specifieke posttypes die men kan tweeten"
+
+msgid "Loading licenses from the BNC server..."
+msgstr "Licenties laden van de BNC-server..."
+
+msgid "Loading..."
+msgstr "Laden..."
+
+msgid "Long URLs will automatically be shortened using the specified URL shortener"
+msgstr "Lange URL's zullen automatisch korter gemaakt worden met behulp van de gespecificeerde URL-verkorter."
+
+msgid "Make Private"
+msgstr "Privé maken"
+
+msgid "Make Shared"
+msgstr "Delen"
+
+msgid "Make Site-wide"
+msgstr "Op de hele site activeren"
+
+msgid "Manage Licenses"
+msgstr "Licenties beheren"
+
+msgid "Manual"
+msgstr "Manueel"
+
+msgid "Me"
+msgstr "Ik"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "My Account"
+msgstr "Mijn account"
+
+msgid "New [post_type]: %s"
+msgstr "Nieuw(e) [post_type]: %s"
+
+msgid "New [post_type]: [title] - [link] [hashtags]"
+msgstr "Nieuwe [post_type]: [title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [full_author] - [link] [hashtags]"
+msgstr "Nieuw [post_type]: [title] van [full_author] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [short_author] - [link] [hashtags]"
+msgstr "Nieuwe [post_type]: [title] van [short_author] - [link] [hashtags]"
+
+msgid "No accounts configured yet"
+msgstr "Nog geen accounts geconfigureerd"
+
+msgid "No issues"
+msgstr "Geen problemen"
+
+msgid "No tweets found"
+msgstr "Geen tweets gevonden"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Oops! Try saving again."
+msgstr "Oeps! Probeer opnieuw op te slaan."
+
+msgid "Options"
+msgstr "Opties"
+
+msgid "Others can publish to this account"
+msgstr "Anderen kunnen dingen publiceren op deze account"
+
+msgid "Overview"
+msgstr "Overzicht"
+
+msgid "Owned by %s"
+msgstr "Eigendom van %s"
+
+msgid "Pending"
+msgstr "In afwachting"
+
+msgid "Please enter your Account E-Mail and License Key to begin the license activation process, or %spurchase a license &raquo;%s"
+msgstr "Gelieve het e-mailadres en de licentiesleutel van je account in te voeren om het activatieproces van je licentie te starten, of %skoop een licentie &raquo;%s"
+
+msgid "Plugin Status"
+msgstr "Status van plug-in"
+
+msgid "Private"
+msgstr "Privé"
+
+msgid "Publish Now"
+msgstr "Nu publiceren"
+
+msgid "Publish Status"
+msgstr "Status publiceren"
+
+msgid "Publish this tweet"
+msgstr "Deze tweet publiceren"
+
+msgid "Published"
+msgstr "Gepubliceerd"
+
+msgid "Published Tweet"
+msgid_plural "Published Tweets"
+msgstr[0] "Gepubliceerde Tweet"
+msgstr[1] "Gepubliceerde Tweets"
+
+msgid "Purchase More Licenses"
+msgstr "Meer licenties kopen"
+
+msgid "Purchase a license"
+msgstr "Een licentie kopen"
+
+msgid "Refresh"
+msgstr "Vernieuwen"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Remove license?"
+msgstr "Licenties verwijderen"
+
+msgid "Reset"
+msgstr "Verwijderen"
+
+msgid "Reset Licenses Now"
+msgstr "Licenties nu verwijderen"
+
+msgid "Reset Settings"
+msgstr "Instellingen wissen"
+
+msgid "Reset all WordTwit Pro admin settings?"
+msgstr "Alle WordTwit Pro admin-instellingen verwijderen?"
+
+msgid "Reset to Automatic to re-enable hashtags"
+msgstr "Opnieuw instellen op Automatisch om hashtags opnieuw te activeren"
+
+msgid "Retweet"
+msgstr "Opnieuw tweeten"
+
+msgid "Right Now"
+msgstr "Nu"
+
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+msgid "Saving"
+msgstr "Opslaan"
+
+msgid "Saving..."
+msgstr "Opslaan..."
+
+msgid "Schedule"
+msgstr "Schema"
+
+msgid "Scheduled"
+msgstr "Gepland"
+
+msgid "Scheduled Tweet"
+msgid_plural "Scheduled Tweets"
+msgstr[0] "Geplande Tweet"
+msgstr[1] "Geplande Tweets"
+
+msgid "Screen Name"
+msgstr "Schermnaam"
+
+msgid "Security check failed"
+msgstr "Veiligheidscontrole mislukt"
+
+msgid "Separate multiple hashtags with commas"
+msgstr "Meerdere hashtags door komma's scheiden"
+
+msgid "Separated by"
+msgstr "Gescheiden door"
+
+msgid "Server Time"
+msgstr "Servertijd"
+
+msgid "Settings saved!"
+msgstr "Instellingen opgeslagen!"
+
+msgid "Shared"
+msgstr "Gedeeld"
+
+msgid "Shorten post titles to maintain tweet character limit"
+msgstr "Titels van posts inkorten zodat ze voldoen aan het maximum aantal karakters voor een Tweet."
+
+msgid "Shortening Method"
+msgstr "Methode om te verkorten"
+
+msgid "Site-wide"
+msgstr "Op de hele site"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Support Forums"
+msgstr "Support-forums"
+
+msgid "Terms &amp; Legal"
+msgstr "Algemene voorwaarden &amp; Legaal"
+
+msgid "Thank you for supporting us!"
+msgstr "Dank je om ons te steunen!"
+
+msgid "The BraveNewCode Blog timed out."
+msgstr "De verbinding met de BraveNewCode Blog is verlopen."
+
+msgid "The Twitter API requires the time on your server to be correct.  You can use this field to add or subtract an amount of time. Number is in seconds only. e.g. 3600 (equals 1 hour)"
+msgstr "Voor de Twitter API moet het tijdstip op je server correct zijn. Je kunt dit veld gebruiken om tijd bij te tellen of af te trekken. Het aantal wordt enkel in seconden uitgedrukt bijv. 3600 (is gelijk aan 1 uur)"
+
+msgid "The import key you used is not valid.  Please try a copy/paste of your key again."
+msgstr "De importsleutel die je gebruikt hebt, is niet geldig. Gelieve je sleutel opnieuw te kopiëren/plakken."
+
+msgid "The professional version of the popular WordPress to Twitter publishing tool."
+msgstr "De professionele versie van het populaire hulpmiddel om van WordPress naar Twitter te publiceren."
+
+msgid "There are currently no accounts configured."
+msgstr "Er zijn momenteel geen accounts geconfigureerd."
+
+msgid "There are no Twitter accounts registered"
+msgstr "Er zijn geen geregistreerde Twitter-accounts"
+
+msgid "This Account E-Mail/License Key combination you have entered was rejected by the BraveNewCode server. Please try again."
+msgstr "De combinatie van het e-mailadres en de sleutelcombinatie van je account die je ingevoerd hebt, werd afgewezen door de BraveNewCode server. Gelieve het opnieuw te proberen."
+
+msgid "This copy of WordTwit Pro %s is unlicensed."
+msgstr "Deze versie van WordTwit Pro %s heeft geen licentie."
+
+msgid "This copy of WordTwit Pro is partially activated."
+msgstr "Deze versie van WordTwit Pro is gedeeltelijk geactiveerd."
+
+msgid "This operation cannot be undone."
+msgstr "Deze bewerking kan niet ongedaan gemaakt worden."
+
+msgid "Tracking"
+msgstr "Zoeken"
+
+msgid "Tweet"
+msgstr "Tweet"
+
+msgid "Tweet Log"
+msgstr "Logbestand van tweets"
+
+msgid "Tweet Now"
+msgstr "Nu tweeten"
+
+msgid "Tweet Templates"
+msgstr "Tweet-templates"
+
+msgid "Tweet URLs will be changed to pass Twitter's duplicate tweet restrictions."
+msgstr "Tweet-URL's zullen worden gewijzigd om te voldoen aan de beperkingen omtrent dubbele tweets op Twitter."
+
+msgid "Tweet mode is manual"
+msgstr "Tweet-mode is manueel"
+
+msgid "TwitBoard"
+msgstr "TwitBoard"
+
+msgid "Twitter API Compliance"
+msgstr "Twitter-API-overeenstemming"
+
+msgid "Twitter Account"
+msgid_plural "Twitter Accounts"
+msgstr[0] "Twitter-account"
+msgstr[1] "Twitter-accounts"
+
+msgid "Twitter Accounts"
+msgstr "Twitter-accounts"
+
+msgid "Twitter.com Status"
+msgstr "Twitter.com-status"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "UNLICENSED"
+msgstr "GEEN LICENTIE"
+
+msgid "URL Shortener"
+msgstr "URL verkorten"
+
+msgid "UTM campaign tag"
+msgstr "UTM-tag met naam van de campagne"
+
+msgid "UTM medium tag"
+msgstr "UTM-tag met soort medium"
+
+msgid "UTM source tag"
+msgstr "UTM-tag met naam van de bron"
+
+msgid "Unable to verify WordTwit Pro nonce"
+msgstr "Kon WordTwit Pro-nonce (veiligheid) niet verifiëren"
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Unpublished"
+msgstr "Niet gepubliceerd"
+
+msgid "Unpublished - Old Post"
+msgstr "Niet gepubliceerd - oude post"
+
+msgid "Up to date"
+msgstr "Up-to-date"
+
+msgid "Updates"
+msgstr "Updates"
+
+msgid "Upgrade Available"
+msgstr "Upgrade beschikbaar"
+
+msgid "Valid tags are [post_type], [link], [title], [full_author], [short_author], and [hashtags]."
+msgstr "Geldige tags zijn [post_type], [link], [title], [full_author], [short_author], en [hashtags]."
+
+msgid "Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts."
+msgstr "Waarschuwing: Als je je klantsleutel of geheim wijzigt, zul je opnieuw een autorisatie moeten geven voor al je accounts."
+
+msgid "When you publish tweets they'll appear here."
+msgstr "Als je tweets publiceert, zullen ze hier verschijnen."
+
+msgid "Will be tweeted"
+msgstr "Zal worden getweet"
+
+msgid "WordPress users levels authorized to add Twitter accounts"
+msgstr "WordPress-gebruikersniveaus die Twitter-accounts mogen toevoegen"
+
+msgid "WordTwit News"
+msgstr "WordTwit-nieuws"
+
+msgid "WordTwit Pro"
+msgstr "WordTwit Pro"
+
+msgid "WordTwit Pro Changelog"
+msgstr "WordTwit Pro logbestand met wijzigingen"
+
+msgid "WordTwit Pro is a trademark of %sBraveNewCode Inc.%s"
+msgstr "WordTwit Pro is een handelsmerk van %sBraveNewCode Inc.%s"
+
+msgid "WordTwit Settings"
+msgstr "WordTwit-instellingen"
+
+msgid "WordTwit Version"
+msgstr "WordTwit-versie"
+
+msgid "You can also create %sa custom application via Twitter%s and have WordTwit tweet on from your application's namesake. Clear both of these fields to use the default Twitter OAuth configuration."
+msgstr "Je kunt ook %seen specifieke applicatie via Twitter%s creëren en de and have WordTwit tweet on from your application's namesake. Maak deze beide velden leeg om de standaard Twitter OAuth configuratie te gebruiken"
+
+msgid "You can enter a custom tweet template to be used here."
+msgstr "Je kunt hier een specifieke tweet-template invoeren om te gebruiken."
+
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr "Je hebt deze sites geactiveerd voor automatische upgrades & support:"
+
+msgid "You have not activated a license for this WordPress installation."
+msgstr "Je hebt nog geen licentie voor deze installatie van WordPress geactiveerd."
+
+msgid "You have not added any Twitter accounts yet"
+msgstr "Je hebt nog geen Twitter-accounts toegevoegd"
+
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr "Je zult je licenties weer kunnen resetten over %d dag(en)."
+
+msgid "Your Account E-Mail and License Key are required to enable site licenses for support and auto-upgrades with WordTwit Pro."
+msgstr "Het e-mailadres en de licentiesleutel van je account zijn vereist om site-licenties te activeren voor support en automatische upgrades bij WordTwit Pro."
+
+msgid "Your Account E-Mail and License Key have been accepted. <br />Next, %sconnect a site license%s to this domain to enable support and automatic upgrades."
+msgstr "Het e-mailadres en de licentiesleutel van je account zijn aanvaard.<br /> %sVerbind nu een site-licentie%s met dit domein om support en automatische upgrades te activeren."
+
+msgid "Your tweet is too long. It must be 140 characters or less."
+msgstr "Je tweet is te lang. Hij mag maximum 140 karakters bevatten."
+
+msgid "[title] by [full_author] - [link] [hashtags]"
+msgstr "[title] van [full_author] - [link] [hashtags]"
+
+msgid "[title] by [short_author] - [link] [hashtags]"
+msgstr "[title] van [short_author] - [link] [hashtags]"
+
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+msgid "private"
+msgstr "privé"
+
+msgid "shared"
+msgstr "gedeeld"

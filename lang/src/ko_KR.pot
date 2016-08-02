@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d Pending"
+msgid_plural "%d Pending"
+msgstr[0] "%d개 보류 중"
+msgstr[1] "%d개 보류 중"
+
+msgid "%d Tweeted"
+msgid_plural "%d Tweeted"
+msgstr[0] "%d개 트윗됨"
+msgstr[1] "%d개 트윗됨"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d시간"
+msgstr[1] "%d시간"
+
+msgid "%d mins"
+msgstr "%d분"
+
+msgid "%d times"
+msgstr "%d회"
+
+msgid "%s (Missing)"
+msgstr "%s (없음)"
+
+msgid "%s items"
+msgstr "%s개 항목"
+
+msgid "%s%d%s license(s) remaining."
+msgstr "%s%d%s개 라이센스 남음."
+
+msgid "(%d Pending)"
+msgid_plural "(%d Pending)"
+msgstr[0] "(%d개 보류 중)"
+msgstr[1] "(%d개 보류 중)"
+
+msgid "(%d Tweeted)"
+msgid_plural "(%d Tweeted)"
+msgstr[0] "(%d개 트윗됨)"
+msgstr[1] "(%d개 트윗됨)"
+
+msgid "* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr "* %d일마다 모든 지원 및 자동 업그레이드 라이센스를 재설정할 수 있습니다."
+
+msgid ", %d mins"
+msgstr ", %d분"
+
+msgid "1 time"
+msgstr "1회"
+
+msgid "ACTIVATION REQUIRED"
+msgstr "활성화 필요"
+
+msgid "API connection failed"
+msgstr "API 연결 실패"
+
+msgid "Account"
+msgstr "계정"
+
+msgid "Account + Licenses"
+msgstr "계정 + 라이센스"
+
+msgid "Account E-Mail"
+msgstr "계정 이메일"
+
+msgid "Account Information"
+msgstr "계정 정보"
+
+msgid "Accounts"
+msgstr "계정"
+
+msgid "Accurate"
+msgstr "정확함"
+
+msgid "Activate This WordPress installation &raquo;"
+msgstr "이 WordPress 설치 활성화 &raquo;"
+
+msgid "Activate license"
+msgstr "라이센스 활성화"
+
+msgid "Active Site Licenses"
+msgstr "활성 사이트 라이센스"
+
+msgid "Add"
+msgstr "추가"
+
+msgid "Add Account"
+msgstr "계정 추가"
+
+msgid "Add An Account"
+msgstr "계정 추가"
+
+msgid "Add New Hashtag"
+msgstr "새 해시태그 추가"
+
+msgid "Add UTM tracking tags to Tweeted URLs"
+msgstr "트윗되는 URL에 UTM 추적 태그 추가"
+
+msgid "Add a site license &raquo;"
+msgstr "사이트 라이센스 추가 &raquo;"
+
+msgid "Add an account"
+msgstr "계정 추가"
+
+msgid "Adds UTM tags to the URLs created by WordTwit Pro. Requires a URL shortener other than 'WordPress' to be used."
+msgstr "WordTwit Pro에서 생성된 URL에 UTM 태그를 추가합니다. 'WordPress' 이외의 URL Shortener를 사용해야 합니다."
+
+msgid "Admin panel language"
+msgstr "관리자 패널 언어"
+
+msgid "Administrator"
+msgstr "관리자"
+
+msgid "Advanced"
+msgstr "고급"
+
+msgid "All"
+msgstr "모두"
+
+msgid "All sites can publish to this account"
+msgstr "모든 사이트는 이 계정에 게시할 수 있습니다"
+
+msgid "Allow other WordPress users to add their own Twitter accounts"
+msgstr "다른 WordPress 사용자가 자신의 Twitter 계정에 추가하도록 허용"
+
+msgid "Are you sure would would like to publish the tweet(s) for this post?"
+msgstr "정말로 이 글에 대한 트윗(들)을 게시하시겠습니까?"
+
+msgid "At a Glance"
+msgstr "요약"
+
+msgid "Authentication signature for YOURLS"
+msgstr "YOURLS를 위한 인증 서명"
+
+msgid "Authorize New Account"
+msgstr "새 계정 인증"
+
+msgid "Auto-detect"
+msgstr "Auto-detect"
+
+msgid "Automatic"
+msgstr "자동"
+
+msgid "Bit.ly API key"
+msgstr "Bit.ly API 키"
+
+msgid "Bit.ly username"
+msgstr "Bit.ly 사용자 이름"
+
+msgid "Can be found in the YOURLS administration panel."
+msgstr "YOURLS 관리자 패널에서 찾을 수 있습니다."
+
+msgid "Choose from recent Hashtags"
+msgstr "최근 해시태그에서 선택"
+
+msgid "Click the 'Add Account' button above to add your first Twitter account"
+msgstr "위의 '계정 추가' 버튼을 클릭하여 첫 번째  Twitter 계정을 추가하십시오"
+
+msgid "Consumer Key"
+msgstr "컨수머 키"
+
+msgid "Consumer Secret"
+msgstr "컨수머 시크릿"
+
+msgid "Curl"
+msgstr "Curl"
+
+msgid "Custom"
+msgstr "사용자 지정"
+
+msgid "Custom Application"
+msgstr "사용자 지정 애플리케이션"
+
+msgid "Custom Content"
+msgstr "사용자 지정 컨텐츠"
+
+msgid "Custom tweet template"
+msgstr "트윗 템플릿 사용자 지정"
+
+msgid "Date/Time"
+msgstr "날짜/시간"
+
+msgid "Default"
+msgstr "기본값"
+
+msgid "Defaults restored"
+msgstr "기본값 복원됨"
+
+msgid "Delay"
+msgstr "지연"
+
+msgid "Delay the first tweet by"
+msgstr "다음 사용자의 첫 번째 트윗 지연:"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Delete log item"
+msgstr "로그 항목 삭제"
+
+msgid "Disable warning message when retweeting from the post widget"
+msgstr "글 출력 위젯에서 리트윗할 때 경고 메시지 비활성화"
+
+msgid "Disabled for this post"
+msgstr "이 글에 사용되지 않음"
+
+msgid "Do not tweet"
+msgstr "트윗 안 함"
+
+msgid "Documentation"
+msgstr "설명서"
+
+msgid "Done"
+msgstr "완료"
+
+msgid "Edit"
+msgstr "편집"
+
+msgid "Editors"
+msgstr "편집자"
+
+msgid "Editors and Authors"
+msgstr "편집자 및 작성자"
+
+msgid "Enter a comma-separated list of custom post types that will be Tweeted automatically."
+msgstr "자동으로 트윗되는 쉼표로 구분된 사용자 지정 글 유형 목록을 입력합니다."
+
+msgid "Failed"
+msgstr "실패"
+
+msgid "Followers"
+msgstr "팔로어"
+
+msgid "From the BraveNewCode Blog"
+msgstr "출처: BraveNewCode 블로그"
+
+msgid "Full URL path to yourls-api.php"
+msgstr "yourls-api.php의 전체 URL 경로"
+
+msgid "General"
+msgstr "일반"
+
+msgid "Get started with Activation &raquo;"
+msgstr "활성화 시작하기 &raquo;"
+
+msgid "Hashtags"
+msgstr "해시태그"
+
+msgid "Incorrect"
+msgstr "정확하지 않음"
+
+msgid "Individual tweet template"
+msgstr "개별 트윗 템플릿"
+
+msgid "LICENSED"
+msgstr "사용 허가됨"
+
+msgid "License Key"
+msgstr "라이센스 키"
+
+msgid "License Remaining"
+msgid_plural "Licenses Remaining"
+msgstr[0] "잔여 라이센스"
+msgstr[1] "잔여 라이센스"
+
+msgid "License accepted, thank you for supporting WordTwit Pro!"
+msgstr "라이센스가 수락되었습니다. WordTwit Pro를 지원해 주셔서 감사합니다!"
+
+msgid "List of custom post types to Tweet"
+msgstr "트윗하는 사용자 지정 글 유형 목록"
+
+msgid "Loading licenses from the BNC server..."
+msgstr "BNC 서버에서 라이센스 로드 중..."
+
+msgid "Loading..."
+msgstr "로드 중..."
+
+msgid "Long URLs will automatically be shortened using the specified URL shortener"
+msgstr "긴 URL은 지정한 URL Shortener를 사용하여 자동으로 단축됩니다."
+
+msgid "Make Private"
+msgstr "비밀 설정"
+
+msgid "Make Shared"
+msgstr "공유하기"
+
+msgid "Make Site-wide"
+msgstr "전체 사이트 이용 가능"
+
+msgid "Manage Licenses"
+msgstr "라이센스 관리"
+
+msgid "Manual"
+msgstr "수동"
+
+msgid "Me"
+msgstr "나"
+
+msgid "Mode"
+msgstr "모드"
+
+msgid "My Account"
+msgstr "내 계정"
+
+msgid "New [post_type]: %s"
+msgstr "새 [post_type]: %s"
+
+msgid "New [post_type]: [title] - [link] [hashtags]"
+msgstr "새 [post_type]: [title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [full_author] - [link] [hashtags]"
+msgstr "새 [post_type]: [full_author]의 [title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [short_author] - [link] [hashtags]"
+msgstr "새 [post_type]: [short_author]의 [title] - [link] [hashtags]"
+
+msgid "No accounts configured yet"
+msgstr "아직 구성된 계정 없음"
+
+msgid "No issues"
+msgstr "문제 없음"
+
+msgid "No tweets found"
+msgstr "검색된 트윗 없음"
+
+msgid "Ok"
+msgstr "확인"
+
+msgid "Oops! Try saving again."
+msgstr "이런! 다시 저장해 보십시오."
+
+msgid "Options"
+msgstr "옵션"
+
+msgid "Others can publish to this account"
+msgstr "다른 사용자가 이 계정에 게시할 수 있습니다"
+
+msgid "Overview"
+msgstr "개요"
+
+msgid "Owned by %s"
+msgstr "소유자: %s"
+
+msgid "Pending"
+msgstr "보류 중"
+
+msgid "Please enter your Account E-Mail and License Key to begin the license activation process, or %spurchase a license &raquo;%s"
+msgstr "계정 이메일 및 라이센스 키를 입력하여 라이센스 활성화 프로세스를 시작하거나 %s라이센스를 구매하십시오 &raquo;%s"
+
+msgid "Plugin Status"
+msgstr "플러그인 상태"
+
+msgid "Private"
+msgstr "개인"
+
+msgid "Publish Now"
+msgstr "지금 게시"
+
+msgid "Publish Status"
+msgstr "게시 상태"
+
+msgid "Publish this tweet"
+msgstr "이 트윗 게시"
+
+msgid "Published"
+msgstr "게시됨"
+
+msgid "Published Tweet"
+msgid_plural "Published Tweets"
+msgstr[0] "게시된 트윗"
+msgstr[1] "게시된 트윗"
+
+msgid "Purchase More Licenses"
+msgstr "추가 라이센스 구매"
+
+msgid "Purchase a license"
+msgstr "라이센스 구매"
+
+msgid "Refresh"
+msgstr "새로 고침"
+
+msgid "Remove"
+msgstr "제거"
+
+msgid "Remove license?"
+msgstr "라이센스를 제거하겠습니까?"
+
+msgid "Reset"
+msgstr "재설정"
+
+msgid "Reset Licenses Now"
+msgstr "지금 라이센스 재설정"
+
+msgid "Reset Settings"
+msgstr "설정 재설정"
+
+msgid "Reset all WordTwit Pro admin settings?"
+msgstr "모든 WordTwit Pro 관리자 설정을 재설정하시겠습니까?"
+
+msgid "Reset to Automatic to re-enable hashtags"
+msgstr "해시태그를 재활성화하도록 자동으로 재설정"
+
+msgid "Retweet"
+msgstr "리트윗"
+
+msgid "Right Now"
+msgstr "지금"
+
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+msgid "Saving"
+msgstr "저장 중"
+
+msgid "Saving..."
+msgstr "저장 중..."
+
+msgid "Schedule"
+msgstr "일정"
+
+msgid "Scheduled"
+msgstr "예약됨"
+
+msgid "Scheduled Tweet"
+msgid_plural "Scheduled Tweets"
+msgstr[0] "예약된 트윗"
+msgstr[1] "예약된 트윗"
+
+msgid "Screen Name"
+msgstr "대화명"
+
+msgid "Security check failed"
+msgstr "보안 검사 실패"
+
+msgid "Separate multiple hashtags with commas"
+msgstr "여러 해시태그를 쉼표로 구분"
+
+msgid "Separated by"
+msgstr "구분 기준:"
+
+msgid "Server Time"
+msgstr "서버 시간"
+
+msgid "Settings saved!"
+msgstr "설정이 저장되었습니다!"
+
+msgid "Shared"
+msgstr "공유"
+
+msgid "Shorten post titles to maintain tweet character limit"
+msgstr "트윗 글자 제한을 유지하도록 글 제목을 줄입니다"
+
+msgid "Shortening Method"
+msgstr "단축 방법"
+
+msgid "Site-wide"
+msgstr "사이트 전체"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Support Forums"
+msgstr "지원 포럼"
+
+msgid "Terms &amp; Legal"
+msgstr "법적 조건"
+
+msgid "Thank you for supporting us!"
+msgstr "지원해 주셔서 감사합니다!"
+
+msgid "The BraveNewCode Blog timed out."
+msgstr "BraveNewCode 블로그가 시간 초과되었습니다."
+
+msgid "The Twitter API requires the time on your server to be correct.  You can use this field to add or subtract an amount of time. Number is in seconds only. e.g. 3600 (equals 1 hour)"
+msgstr "정확성을 위해 Twitter API는 해당 서버의 시간이 필요합니다. 이 필드를 사용하여 시간을 더하거나 뺄 수 있습니다. 숫자는 초로만 입력됩니다. 예)  3600(1시간에 해당)"
+
+msgid "The import key you used is not valid.  Please try a copy/paste of your key again."
+msgstr "사용하고 있던 가져오기 키가 잘못되었습니다. 다시 한번 키를 복사/붙여넣기해 보십시오."
+
+msgid "The professional version of the popular WordPress to Twitter publishing tool."
+msgstr "WordPress를 Twitter에 게시하는 인기있는 툴의 전문적인 버전."
+
+msgid "There are currently no accounts configured."
+msgstr "현재 구성된 계정이 없습니다."
+
+msgid "There are no Twitter accounts registered"
+msgstr "등록된 Twitter 계정이 없습니다"
+
+msgid "This Account E-Mail/License Key combination you have entered was rejected by the BraveNewCode server. Please try again."
+msgstr "입력하신 이 계정 이메일/라이센스 키 조합이 BraveNewCode 서버에서 거부되었습니다. 다시 시도하십시오."
+
+msgid "This copy of WordTwit Pro %s is unlicensed."
+msgstr "이 WordTwit Pro %s 제품은 라이센스가 허락되지 않았습니다."
+
+msgid "This copy of WordTwit Pro is partially activated."
+msgstr "이 WordTwit Pro 제품은 부분적으로 활성화되었습니다."
+
+msgid "This operation cannot be undone."
+msgstr "이 작업은 실행을 취소할 수 없습니다."
+
+msgid "Tracking"
+msgstr "추적 중"
+
+msgid "Tweet"
+msgstr "트윗"
+
+msgid "Tweet Log"
+msgstr "트윗 로그"
+
+msgid "Tweet Now"
+msgstr "지금 트윗"
+
+msgid "Tweet Templates"
+msgstr "트윗 템플릿"
+
+msgid "Tweet URLs will be changed to pass Twitter's duplicate tweet restrictions."
+msgstr "Twitter의 트윗 복사 제한을 통과하도록 트윗 URL이 변경됩니다."
+
+msgid "Tweet mode is manual"
+msgstr "트윗 모드가 수동입니다"
+
+msgid "Tweet time offset to correct server mismatch. %sEstimate now%s"
+msgstr "서버 불일치를 수정하기 위한 트윗 시간 오프셋. %s지금 추정%s"
+
+msgid "TwitBoard"
+msgstr "TwitBoard"
+
+msgid "Twitter API Compliance"
+msgstr "Twitter API 호환"
+
+msgid "Twitter Account"
+msgid_plural "Twitter Accounts"
+msgstr[0] "Twitter 계정"
+msgstr[1] "Twitter 계정"
+
+msgid "Twitter Accounts"
+msgstr "Twitter 계정"
+
+msgid "Twitter.com Status"
+msgstr "Twitter.com 상태"
+
+msgid "Type"
+msgstr "유형"
+
+msgid "UNLICENSED"
+msgstr "사용 허가되지 않음"
+
+msgid "URL Shortener"
+msgstr "URL Shortener"
+
+msgid "UTM campaign tag"
+msgstr "UTM 캠페인 태그"
+
+msgid "UTM medium tag"
+msgstr "UTM 매체 태그"
+
+msgid "UTM source tag"
+msgstr "UTM 소스 태그"
+
+msgid "Unable to verify WordTwit Pro nonce"
+msgstr "일시적으로 WordTwit Pro를 확인할 수 없습니다"
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "Unpublished"
+msgstr "게시되지 않음"
+
+msgid "Unpublished - Old Post"
+msgstr "게시되지 않음 - 이전 글"
+
+msgid "Up to date"
+msgstr "최신 상태"
+
+msgid "Updates"
+msgstr "업데이트"
+
+msgid "Upgrade Available"
+msgstr "업그레이드 이용 가능"
+
+msgid "Valid tags are [post_type], [link], [title], [full_author], [short_author], and [hashtags]."
+msgstr "유효한 태그는 [post_type], [link], [title], [full_author], [short_author] 및 [hashtags]입니다."
+
+msgid "Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts."
+msgstr "경고: 컨수머 키나 시크릿을 변경하면 모든 계정을 다시 인증해야 합니다."
+
+msgid "When you publish tweets they'll appear here."
+msgstr "트윗을 게시하면 여기에 표시됩니다."
+
+msgid "Will be tweeted"
+msgstr "트윗될 예정입니다"
+
+msgid "WordPress users levels authorized to add Twitter accounts"
+msgstr "Twitter 계정에 추가하도록 허용된 WordPress 사용자 수준"
+
+msgid "WordTwit News"
+msgstr "WordTwit 소식"
+
+msgid "WordTwit Pro"
+msgstr "WordTwit Pro"
+
+msgid "WordTwit Pro Changelog"
+msgstr "WordTwit Pro 변경 로그"
+
+msgid "WordTwit Pro is a trademark of %sBraveNewCode Inc.%s"
+msgstr "WordTwit Pro는 %sBraveNewCode Inc.%s의 상표입니다."
+
+msgid "WordTwit Settings"
+msgstr "WordTwit 설정"
+
+msgid "WordTwit Version"
+msgstr "WordTwit 버전"
+
+msgid "You can also create %sa custom application via Twitter%s and have WordTwit tweet on from your application's namesake. Clear both of these fields to use the default Twitter OAuth configuration."
+msgstr "%sTwitter를 통해 사용자 지정 애플리케이션%s도 생성하고 WordTwit 트윗을 사용자의 애플리케이션 이름과 동일하게 할 수 있습니다. 기본 Twitter 인증 구성을 사용하려면 이러한 필드의 선택을 모두 제거하십시오."
+
+msgid "You can enter a custom tweet template to be used here."
+msgstr "여기에서 사용할 사용자 지정 트윗 템플릿을 입력할 수 있습니다."
+
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr "자동 업그레이드 및 지원이 가능하도록 다음 사이트를 활성화했습니다:"
+
+msgid "You have not activated a license for this WordPress installation."
+msgstr "이 WordPress 설치에 대해 라이센스를 활성화하지 않았습니다."
+
+msgid "You have not added any Twitter accounts yet"
+msgstr "어떠한 Twitter 계정도 아직 추가하지 않았습니다"
+
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr "%d일 후에 라이센스를 다시 재설정할 수 있습니다."
+
+msgid "Your Account E-Mail and License Key are required to enable site licenses for support and auto-upgrades with WordTwit Pro."
+msgstr "WordTwit Pro 지원과 자동 업그레이드를 위해 사이트 라이센스를 활성화하려면 귀하의 계정 이메일과 라이센스 키가 필요합니다."
+
+msgid "Your Account E-Mail and License Key have been accepted. <br />Next, %sconnect a site license%s to this domain to enable support and automatic upgrades."
+msgstr "귀하의 계정 이메일과 라이센스 키가 수락되었습니다. <br />다음으로, 지원 및 자동 업그레이드가 가능하도록 이 도메인에 %s사이트 라이센스를 연결%s하십시오."
+
+msgid "Your tweet is too long. It must be 140 characters or less."
+msgstr "트윗이 너무 깁니다. 길이가 140자 이하여야 합니다."
+
+msgid "[title] by [full_author] - [link] [hashtags]"
+msgstr "[full_author]의 [title] - [link] [hashtags]"
+
+msgid "[title] by [short_author] - [link] [hashtags]"
+msgstr "[short_author]의 [title] - [link] [hashtags]"
+
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+msgid "private"
+msgstr "개인"
+
+msgid "shared"
+msgstr "공유됨"

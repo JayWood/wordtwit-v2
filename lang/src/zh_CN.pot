@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d Pending"
+msgid_plural "%d Pending"
+msgstr[0] "%d条待发"
+msgstr[1] "%d条待发"
+
+msgid "%d Tweeted"
+msgid_plural "%d Tweeted"
+msgstr[0] "%d条已推送"
+msgstr[1] "%d条已推送"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d小时"
+msgstr[1] "%d小时"
+
+msgid "%d mins"
+msgstr "%d分钟"
+
+msgid "%d times"
+msgstr "%d次"
+
+msgid "%s (Missing)"
+msgstr "%s（缺失）"
+
+msgid "%s items"
+msgstr "%s个项目"
+
+msgid "%s%d%s license(s) remaining."
+msgstr "剩余%s%d%s份许可证。"
+
+msgid "(%d Pending)"
+msgid_plural "(%d Pending)"
+msgstr[0] "（%d条待推送）"
+msgstr[1] "（%d条待推送）"
+
+msgid "(%d Tweeted)"
+msgid_plural "(%d Tweeted)"
+msgstr[0] "（%d条已推送）"
+msgstr[1] "（%d条已推送）"
+
+msgid "* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr "* 您可以每隔%d天重置所有支持和自动升级许可证。"
+
+msgid ", %d mins"
+msgstr ", %d分钟"
+
+msgid "1 time"
+msgstr "1次"
+
+msgid "ACTIVATION REQUIRED"
+msgstr "需要激活"
+
+msgid "API connection failed"
+msgstr "API连接失败"
+
+msgid "Account"
+msgstr "帐户"
+
+msgid "Account + Licenses"
+msgstr "帐户 + 许可证"
+
+msgid "Account E-Mail"
+msgstr "帐户电子邮件"
+
+msgid "Account Information"
+msgstr "帐户信息"
+
+msgid "Accounts"
+msgstr "帐户"
+
+msgid "Accurate"
+msgstr "准确"
+
+msgid "Activate This WordPress installation &raquo;"
+msgstr "激活该WordPress安装&raquo;"
+
+msgid "Activate license"
+msgstr "激活许可证"
+
+msgid "Active Site Licenses"
+msgstr "激活网站许可证"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add Account"
+msgstr "添加帐户"
+
+msgid "Add An Account"
+msgstr "添加帐户"
+
+msgid "Add New Hashtag"
+msgstr "添加新的#标签"
+
+msgid "Add UTM tracking tags to Tweeted URLs"
+msgstr "添加UTM跟踪标签至推文URL"
+
+msgid "Add a site license &raquo;"
+msgstr "添加网站许可证&raquo;"
+
+msgid "Add an account"
+msgstr "添加帐户"
+
+msgid "Adds UTM tags to the URLs created by WordTwit Pro. Requires a URL shortener other than 'WordPress' to be used."
+msgstr "添加UTM标签到WordTwit Pro创建的URL中。需要使用URL缩短服务而非'WordPress'。"
+
+msgid "Admin panel language"
+msgstr "管理面板语言"
+
+msgid "Administrator"
+msgstr "管理员"
+
+msgid "Advanced"
+msgstr "高级"
+
+msgid "All"
+msgstr "全部"
+
+msgid "All sites can publish to this account"
+msgstr "所有网站都可以发布到这个帐户"
+
+msgid "Allow other WordPress users to add their own Twitter accounts"
+msgstr "允许其他WordPress用户添加他们自己的Twitter帐户"
+
+msgid "Are you sure would would like to publish the tweet(s) for this post?"
+msgstr "确定要发布此文章的推文？"
+
+msgid "At a Glance"
+msgstr "一览"
+
+msgid "Authentication signature for YOURLS"
+msgstr "YOURLS的验证签名"
+
+msgid "Authorize New Account"
+msgstr "授权新帐户"
+
+msgid "Auto-detect"
+msgstr "自动检测"
+
+msgid "Automatic"
+msgstr "自动"
+
+msgid "Bit.ly API key"
+msgstr "Bit.ly API密钥"
+
+msgid "Bit.ly username"
+msgstr "Bit.ly用户名"
+
+msgid "Can be found in the YOURLS administration panel."
+msgstr "可在YOURLS管理面板中找到。"
+
+msgid "Choose from recent Hashtags"
+msgstr "从最近的#标签选择"
+
+msgid "Click the 'Add Account' button above to add your first Twitter account"
+msgstr "点击上面的“添加帐户”按钮添加您的第一个Twitter帐户"
+
+msgid "Consumer Key"
+msgstr "消费者密钥"
+
+msgid "Consumer Secret"
+msgstr "消费者密文"
+
+msgid "Curl"
+msgstr "Curl"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Custom Application"
+msgstr "自定义应用程序"
+
+msgid "Custom Content"
+msgstr "自定义内容"
+
+msgid "Custom tweet template"
+msgstr "自定义推文模板"
+
+msgid "Date/Time"
+msgstr "日期/时间"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Defaults restored"
+msgstr "已恢复默认"
+
+msgid "Delay"
+msgstr "延迟"
+
+msgid "Delay the first tweet by"
+msgstr "显示此前的首个推文："
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete log item"
+msgstr "删除日志项目"
+
+msgid "Disable warning message when retweeting from the post widget"
+msgstr "从文章小工具转推时禁用警告消息"
+
+msgid "Disabled for this post"
+msgstr "对此文章禁用"
+
+msgid "Do not tweet"
+msgstr "不推送"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Editors"
+msgstr "编辑"
+
+msgid "Editors and Authors"
+msgstr "编辑和作者"
+
+msgid "Enter a comma-separated list of custom post types that will be Tweeted automatically."
+msgstr "输入以逗号分隔的将自动推送的自定义文章类型列表。"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Followers"
+msgstr "追随者"
+
+msgid "From the BraveNewCode Blog"
+msgstr "来自BraveNewCode博客"
+
+msgid "Full URL path to yourls-api.php"
+msgstr "yourls-api.php的完整URL路径"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Get started with Activation &raquo;"
+msgstr "开始激活 &raquo;"
+
+msgid "Hashtags"
+msgstr "#标签"
+
+msgid "Incorrect"
+msgstr "错误"
+
+msgid "Individual tweet template"
+msgstr "单个推文模板"
+
+msgid "LICENSED"
+msgstr "已许可"
+
+msgid "License Key"
+msgstr "许可证密钥"
+
+msgid "License Remaining"
+msgid_plural "Licenses Remaining"
+msgstr[0] "剩余许可证"
+msgstr[1] "剩余许可证"
+
+msgid "License accepted, thank you for supporting WordTwit Pro!"
+msgstr "许可证有效，感谢您支持WordTwit Pro！"
+
+msgid "List of custom post types to Tweet"
+msgstr "待推送的自定义文章类型的列表"
+
+msgid "Loading licenses from the BNC server..."
+msgstr "正在从BNC服务器加载许可证..."
+
+msgid "Loading..."
+msgstr "载入中..."
+
+msgid "Long URLs will automatically be shortened using the specified URL shortener"
+msgstr "将使用指定的URL缩短服务自动缩短长URL"
+
+msgid "Make Private"
+msgstr "私密化"
+
+msgid "Make Shared"
+msgstr "共享"
+
+msgid "Make Site-wide"
+msgstr "应用至全站"
+
+msgid "Manage Licenses"
+msgstr "管理许可证"
+
+msgid "Manual"
+msgstr "手动"
+
+msgid "Me"
+msgstr "我"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "My Account"
+msgstr "我的帐户"
+
+msgid "New [post_type]: %s"
+msgstr "新[post_type]: %s"
+
+msgid "New [post_type]: [title] - [link] [hashtags]"
+msgstr "新[post_type]：[title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [full_author] - [link] [hashtags]"
+msgstr "新[post_type]：[title]，作者为[full_author] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [short_author] - [link] [hashtags]"
+msgstr "新[post_type]：[title]，作者为[short_author] - [link] [hashtags]"
+
+msgid "No accounts configured yet"
+msgstr "尚未配置帐户"
+
+msgid "No issues"
+msgstr "没有问题"
+
+msgid "No tweets found"
+msgstr "没有找到推文"
+
+msgid "Ok"
+msgstr "确定"
+
+msgid "Oops! Try saving again."
+msgstr "出错了！请再次尝试保存。"
+
+msgid "Options"
+msgstr "选项"
+
+msgid "Others can publish to this account"
+msgstr "其他人可以发布到这个帐户"
+
+msgid "Overview"
+msgstr "概览"
+
+msgid "Owned by %s"
+msgstr "%s所有"
+
+msgid "Pending"
+msgstr "待推送"
+
+msgid "Please enter your Account E-Mail and License Key to begin the license activation process, or %spurchase a license &raquo;%s"
+msgstr "请输入您的电子邮件和许可证密钥以开始许可证激活流程，或%s购买许可证&raquo;%s"
+
+msgid "Plugin Status"
+msgstr "插件状态"
+
+msgid "Private"
+msgstr "私密"
+
+msgid "Publish Now"
+msgstr "立即发布"
+
+msgid "Publish Status"
+msgstr "发布状态"
+
+msgid "Publish this tweet"
+msgstr "发布此推文"
+
+msgid "Published"
+msgstr "已发布"
+
+msgid "Published Tweet"
+msgid_plural "Published Tweets"
+msgstr[0] "发布的推文"
+msgstr[1] "发布的推文"
+
+msgid "Purchase More Licenses"
+msgstr "购买更多许可证"
+
+msgid "Purchase a license"
+msgstr "购买许可证"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "Remove license?"
+msgstr "移除许可证？"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Reset Licenses Now"
+msgstr "立即重置许可证"
+
+msgid "Reset Settings"
+msgstr "重置设置"
+
+msgid "Reset all WordTwit Pro admin settings?"
+msgstr "重设WordTwit Pro的所有管理设置？"
+
+msgid "Reset to Automatic to re-enable hashtags"
+msgstr "重置为自动以重新启用#标签"
+
+msgid "Retweet"
+msgstr "转推"
+
+msgid "Right Now"
+msgstr "现在"
+
+msgid "Save Changes"
+msgstr "保存更改"
+
+msgid "Saving"
+msgstr "正在保存"
+
+msgid "Saving..."
+msgstr "正在保存..."
+
+msgid "Schedule"
+msgstr "计划"
+
+msgid "Scheduled"
+msgstr "已计划"
+
+msgid "Scheduled Tweet"
+msgid_plural "Scheduled Tweets"
+msgstr[0] "计划的推文"
+msgstr[1] "计划的推文"
+
+msgid "Screen Name"
+msgstr "屏幕名称"
+
+msgid "Security check failed"
+msgstr "安全检查失败"
+
+msgid "Separate multiple hashtags with commas"
+msgstr "用逗号分隔多个#标签"
+
+msgid "Separated by"
+msgstr "分隔符："
+
+msgid "Server Time"
+msgstr "服务器时间"
+
+msgid "Settings saved!"
+msgstr "设置已保存！"
+
+msgid "Shared"
+msgstr "已共享"
+
+msgid "Shorten post titles to maintain tweet character limit"
+msgstr "缩短文章标题以符合推文的字符数限制"
+
+msgid "Shortening Method"
+msgstr "缩短方法"
+
+msgid "Site-wide"
+msgstr "全站"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Support Forums"
+msgstr "支持论坛"
+
+msgid "Terms &amp; Legal"
+msgstr "法律条款"
+
+msgid "Thank you for supporting us!"
+msgstr "感谢您支持我们！"
+
+msgid "The BraveNewCode Blog timed out."
+msgstr "BraveNewCode博客超时。"
+
+msgid "The Twitter API requires the time on your server to be correct.  You can use this field to add or subtract an amount of time. Number is in seconds only. e.g. 3600 (equals 1 hour)"
+msgstr "Twitter API要求您服务器上的时间是正确的。您可以使用这个字段加或减一个时间量。数字只能以秒为单位。例如3600（等于1小时）"
+
+msgid "The import key you used is not valid.  Please try a copy/paste of your key again."
+msgstr "您使用的导入密钥无效。请再次尝试复制/粘贴您的密钥。"
+
+msgid "The professional version of the popular WordPress to Twitter publishing tool."
+msgstr "流行的WordPress至Twitter发布工具的专业版本。"
+
+msgid "There are currently no accounts configured."
+msgstr "目前尚未配置任何帐户。"
+
+msgid "There are no Twitter accounts registered"
+msgstr "未注册Twitter帐户"
+
+msgid "This Account E-Mail/License Key combination you have entered was rejected by the BraveNewCode server. Please try again."
+msgstr "您输入的这个帐户电子邮件/许可证密钥组合被BraveNewCode服务器拒绝。请再试一次。"
+
+msgid "This copy of WordTwit Pro %s is unlicensed."
+msgstr "此副本的WordTwit Pro %s未获得授权许可。"
+
+msgid "This copy of WordTwit Pro is partially activated."
+msgstr "此副本的WordTwit Pro部分激活。"
+
+msgid "This operation cannot be undone."
+msgstr "此操作无法撤消。"
+
+msgid "Tracking"
+msgstr "跟踪"
+
+msgid "Tweet"
+msgstr "推文"
+
+msgid "Tweet Log"
+msgstr "推送日志"
+
+msgid "Tweet Now"
+msgstr "立即推送"
+
+msgid "Tweet Templates"
+msgstr "推文模板"
+
+msgid "Tweet URLs will be changed to pass Twitter's duplicate tweet restrictions."
+msgstr "将更改推文的URL以绕过Twitter的重复推文限制。"
+
+msgid "Tweet mode is manual"
+msgstr "推送模式为手动"
+
+msgid "Tweet time offset to correct server mismatch. %sEstimate now%s"
+msgstr "推文时间偏移以纠正服务器不匹配问题。%s现在估计%s"
+
+msgid "TwitBoard"
+msgstr "TwitBoard"
+
+msgid "Twitter API Compliance"
+msgstr "Twitter API合规"
+
+msgid "Twitter Account"
+msgid_plural "Twitter Accounts"
+msgstr[0] "Twitter帐户"
+msgstr[1] "Twitter帐户"
+
+msgid "Twitter Accounts"
+msgstr "Twitter账户"
+
+msgid "Twitter.com Status"
+msgstr "Twitter.com状态"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "UNLICENSED"
+msgstr "未授权许可"
+
+msgid "URL Shortener"
+msgstr "URL缩短服务"
+
+msgid "UTM campaign tag"
+msgstr "UTM活动标签"
+
+msgid "UTM medium tag"
+msgstr "UTM媒介标记"
+
+msgid "UTM source tag"
+msgstr "UTM源标签"
+
+msgid "Unable to verify WordTwit Pro nonce"
+msgstr "无法验证WordTwit Pro随机数"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Unpublished"
+msgstr "未发布"
+
+msgid "Unpublished - Old Post"
+msgstr "未发布 - 旧文章"
+
+msgid "Up to date"
+msgstr "最新"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Upgrade Available"
+msgstr "升级可用"
+
+msgid "Valid tags are [post_type], [link], [title], [full_author], [short_author], and [hashtags]."
+msgstr "有效的标签是[post_type]、[link]、[title]、[full_author]、[short_author]和[hashtags]。"
+
+msgid "Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts."
+msgstr "警告：改变您的消费者密钥或密文将要求您重新授权您的所有帐户。"
+
+msgid "When you publish tweets they'll appear here."
+msgstr "当您发布推文时，它们会出现在这里。"
+
+msgid "Will be tweeted"
+msgstr "将被推送"
+
+msgid "WordPress users levels authorized to add Twitter accounts"
+msgstr "有权添加Twitter帐户的WordPress用户级别"
+
+msgid "WordTwit News"
+msgstr "WordTwit新闻"
+
+msgid "WordTwit Pro"
+msgstr "WordTwit Pro"
+
+msgid "WordTwit Pro Changelog"
+msgstr "WordTwit Pro更新日志"
+
+msgid "WordTwit Pro is a trademark of %sBraveNewCode Inc.%s"
+msgstr "WordTwit Pro是%sBraveNewCode Inc.%s的商标"
+
+msgid "WordTwit Settings"
+msgstr "WordTwit设置"
+
+msgid "WordTwit Version"
+msgstr "WordTwit版本"
+
+msgid "You can also create %sa custom application via Twitter%s and have WordTwit tweet on from your application's namesake. Clear both of these fields to use the default Twitter OAuth configuration."
+msgstr "您也可以%s通过Twitter创建自定义应用程序%s并让WordTwit以您应用程序的名称推送消息。清空这两个字段以使用默认的Twitter OAuth配置。"
+
+msgid "You can enter a custom tweet template to be used here."
+msgstr "您可以在此输入要使用的自定义推文模板。"
+
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr "您已为以下网站激活自动升级和支持："
+
+msgid "You have not activated a license for this WordPress installation."
+msgstr "您还没有为安装的这个WordPress激活许可证。"
+
+msgid "You have not added any Twitter accounts yet"
+msgstr "您还没有添加任何Twitter帐户"
+
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr "您可以在%d天内再次重置许可证。"
+
+msgid "Your Account E-Mail and License Key are required to enable site licenses for support and auto-upgrades with WordTwit Pro."
+msgstr "需要您的帐户电子邮件和许可证密钥启用网站许可证，以便获得WordTwit Pro的支持和自动升级。"
+
+msgid "Your Account E-Mail and License Key have been accepted. <br />Next, %sconnect a site license%s to this domain to enable support and automatic upgrades."
+msgstr "您的帐户电子邮件和许可证密钥已被接受。<br />接下来，%s连接网站许可证%s到此域以启用支持和自动升级。"
+
+msgid "Your tweet is too long. It must be 140 characters or less."
+msgstr "您的推文过长。推文不能超过140个字符。"
+
+msgid "[title] by [full_author] - [link] [hashtags]"
+msgstr "[title]，作者：[full_author] - [link] [hashtags]"
+
+msgid "[title] by [short_author] - [link] [hashtags]"
+msgstr "[title]，作者为[short_author] - [link] [hashtags]"
+
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+msgid "private"
+msgstr "私密"
+
+msgid "shared"
+msgstr "已共享"

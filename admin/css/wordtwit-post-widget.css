@@ -1,0 +1,358 @@
+/* @override http://wptp3.local.com/wp-content/plugins/wordtwit/admin/css/wordtwit-post-widget.css?ver=804066a6a5042090a2a0b25c55f38e72 */
+
+/* The WordTwit Pro Post Widget CSS */
+
+.clearer {
+	clear: both;
+}
+
+#wordtwit-post-widget {
+	overflow: hidden;
+	position: relative;
+}
+
+#wordtwit-box .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#wordtwit-post-widget *:not(textarea):not(input):not(select) {
+	/*
+	-webkit-user-select: none;
+	*/
+}
+
+p.wt-tweet-p {
+	border-top: 1px solid #eee;
+	padding-top: 5px;
+	-webkit-user-select: text;
+}
+
+.wt-tweet-status {
+	padding-left: 10px;
+}
+
+p.wt-tweet-mode {
+	padding-left: 10px;
+}
+
+.wt-tweet-status span, p.wt-tweet-mode span, p.wt-tweet-p span {
+	font-weight: bold;
+}
+
+.wt-unbold a {
+	font-weight: normal;
+	font-style: normal;
+}
+
+p.wt-tweet-mode span.manual {
+	
+
+/* Dale to decide what this is */
+	color: darkorange;
+}
+
+img#wt-post-box-spinner {
+	position: absolute;
+	top: 2px;
+	right: 0;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+
+#wordtwit-post-widget p.wt-tweet-text {
+	display: block;
+	background-color: #fbfafc;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px dashed #dddddd;
+	color: #666;
+	cursor: pointer;
+	overflow: hidden;
+	font-size: 12px;
+	padding: 5px;
+	margin: 0 10px 12px;
+}
+
+#wordtwit-post-widget p.wt-tweet-text:hover {
+	background-color: lightyellow;
+	border: 1px dashed #ffae50;
+}
+
+#wt-tweet-textarea {
+	overflow: auto;
+	padding: 8px;
+	font-size: 12px;
+	height: 100px;
+	width: 94.5%;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+a.wt-widget-textarea-button {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.wt-widget-bottom {
+	padding: 6px;
+}
+
+h4.wt-h4 {
+	font: 16px Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 5px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.wt-button-wrap {
+	padding: 12px;
+	text-align: right;
+	background-color: #eff8ff;
+	border-top: 1px solid #dddddd;
+}
+
+.admin-color-fresh .wt-button-wrap {
+	background-color: #f6f6f6;
+}
+
+/* @group Option Bar */
+
+ul#wt-option-bar {
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #dddddd;
+	margin-bottom: 10px;
+	margin-left: 6px;
+	margin-right: 6px;
+	height: 27px;
+	text-align: center;
+	width: 126px;
+}
+
+ul#wt-option-bar li {
+	display: block;
+	text-indent: -1000em;
+	width: 42px;
+	height: 27px;
+	float: left;
+	position: relative;
+}
+
+ul#wt-option-bar li:hover {
+	background-color: #eee;
+}
+
+ul#wt-option-bar li.active {
+	background: url(../images/options-bar/options-bar-bg-active.png) repeat-x 0 0;
+}
+
+ul#wt-option-bar li span {
+	display: block;
+	background: url(../images/options-bar/options-bar-sprite.png) no-repeat;
+	text-indent: -1000px;
+	width: 41px;
+	height: 27px;
+	cursor: pointer;
+	border-left: 1px solid rgba(0,0,0,.1);
+	-webkit-user-select: none;
+}
+
+ul#wt-option-bar li#wt-schedule span {
+	background-position: center 4px;
+	background-repeat: no-repeat;
+}
+
+ul#wt-option-bar li#wt-schedule.active span {
+	background-position: center -26px;
+}
+
+ul#wt-option-bar li#wt-accounts span {
+	background-position: center -56px;
+	border-left-style: none;
+}
+
+ul#wt-option-bar li#wt-accounts.active span {
+	background-position: center -83px;
+}
+
+ul#wt-option-bar li#wt-tags span {
+	background-position: center -112px;
+}
+
+ul#wt-option-bar li#wt-tags.active span {
+	background-position: center -139px;
+}
+
+/* @group Character Count */
+
+#wt-count.warnchars, .wt-tweet-text.warnchars {
+	
+
+/* Dale to Tweak */
+	color: darkorange;
+}
+
+#wt-count.overchars {
+	
+
+/* Dale to Tweak */
+	color: red;
+}
+
+#wordtwit-post-widget p.overchars {
+	background-color: #ffd9db;
+	border: 1px solid red;
+}
+
+#wt-count {
+	float: right;
+	font: 22px Georgia, "Times New Roman", Times, serif;
+	color: #888888;
+	text-shadow: rgba(255,255,255,.8) 0 1px 0;
+	margin-right: 8px;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Accounts Box */
+
+#wt-accounts-box li {
+	display: block;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#wt-accounts-box li span {
+	display: inline-block;
+	width: 70%;
+}
+
+#wt-accounts-box li span.acct-type {
+	font-size: 11px;
+	color: #999;
+}
+
+#wt-accounts-box li * {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#wt-accounts-box img {
+	width: 32px;
+	height: 32px;
+	-ms-interpolation-mode: bicubic;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-background-clip: padding-box;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/* @end */
+
+/* @group Hash Tags */
+
+#wt-add-hashtag {
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#wt-tags-box ul.tagchecklist {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+#wt-tags-box ul.tagchecklist li {
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+#wt-tags-box a.hash-delete {
+	text-indent: -1000em;
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: url(../images/xit.gif) no-repeat;
+	position: relative;
+	top: 6px;
+	float: left;
+	margin-right: 3px;
+}
+
+#wt-tags-box a.hash-delete:hover {
+	background-position: -10px;
+}
+
+ul#hashtag-cloud {
+	margin-top: 15px;
+}
+
+ul#hashtag-cloud li {
+	background-color: #e0eef1;
+	border: 1px solid #afd1e5;
+	text-align: center;
+	float: left;
+	display: block;
+	-o-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	cursor: pointer;
+	text-shadow: rgba(255,255,255,.6) 0 1px 0;
+	font-size: 11px;
+	margin: 4px;
+	padding: 1px 7px 0;
+}
+
+ul#hashtag-cloud li:hover {
+	background-color: #c4dfe7;	
+	border: 1px solid #7ebad1;
+}
+
+ul#hashtag-cloud li.disabled {
+	background-color: #f3f5f5;
+	color: #d4d6d6;
+	border: 1px solid #e4e6e6;
+	cursor: default;
+}
+
+ul#hashtag-cloud li span.count {
+	font-size: 9px;
+	vertical-align: middle;
+	color: #84a6b4;
+	background-color: #fff;
+	border-radius: 24px;
+	margin-right: -3px;
+	padding: 1px 4px;
+	margin-left: 5px;
+	position: relative;
+	bottom: 1px;
+}
+
+ul#hashtag-cloud li.disabled span.count {
+	color: #d4d6d6;
+	background-color: #f8fafa;
+}
+
+/* @end */

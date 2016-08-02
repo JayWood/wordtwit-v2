@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d Pending"
+msgid_plural "%d Pending"
+msgstr[0] "%d Ausstehend"
+msgstr[1] "%d Ausstehend"
+
+msgid "%d Tweeted"
+msgid_plural "%d Tweeted"
+msgstr[0] "%d Getweetet"
+msgstr[1] "%d Getweetet"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d Stunde"
+msgstr[1] "%d Stunden"
+
+msgid "%d mins"
+msgstr "%d min"
+
+msgid "%d times"
+msgstr "%d Male"
+
+msgid "%s (Missing)"
+msgstr "%s (Fehlt)"
+
+msgid "%s items"
+msgstr "%s Artikel"
+
+msgid "%s%d%s license(s) remaining."
+msgstr "noch %s%d%s Lizenz(en)."
+
+msgid "(%d Pending)"
+msgid_plural "(%d Pending)"
+msgstr[0] "(%d Ausstehend)"
+msgstr[1] "(%d Ausstehend)"
+
+msgid "(%d Tweeted)"
+msgid_plural "(%d Tweeted)"
+msgstr[0] "(%d Getweetet)"
+msgstr[1] "(%d Getweetet)"
+
+msgid "* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr "* Sie können alle Support- und Auto-Upgrade-Lizenzen alle %d Tage zurück setzen."
+
+msgid ", %d mins"
+msgstr ", %d Min"
+
+msgid "1 time"
+msgstr "1 Mal"
+
+msgid "ACTIVATION REQUIRED"
+msgstr "AKTIVIERUNG ERFORDERLICH"
+
+msgid "API connection failed"
+msgstr "API-Verbindung fehlgeschlagen"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Account + Licenses"
+msgstr "Account + Lizenzen"
+
+msgid "Account E-Mail"
+msgstr "Account-E-Mail"
+
+msgid "Account Information"
+msgstr "Account-Informationen"
+
+msgid "Accounts"
+msgstr "Accounts"
+
+msgid "Accurate"
+msgstr "Präzise"
+
+msgid "Activate This WordPress installation &raquo;"
+msgstr "Diese WordPress-Installation aktivieren &raquo;"
+
+msgid "Activate license"
+msgstr "Lizenz aktivieren"
+
+msgid "Active Site Licenses"
+msgstr "Aktive Seitenlizenzen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Add Account"
+msgstr "Account hinzufügen"
+
+msgid "Add An Account"
+msgstr "Einen Account hinzufügen"
+
+msgid "Add New Hashtag"
+msgstr "Neuen Hashtag hinzufügen"
+
+msgid "Add UTM tracking tags to Tweeted URLs"
+msgstr "Getweeteten Tags UTM-Verfolgungs-Tags hinzufügen"
+
+msgid "Add a site license &raquo;"
+msgstr "Eine Seitenlizenz hinzufügen &raquo;"
+
+msgid "Add an account"
+msgstr "Einen Account hinzufügen"
+
+msgid "Adds UTM tags to the URLs created by WordTwit Pro. Requires a URL shortener other than 'WordPress' to be used."
+msgstr "Fügt den von WordTwit Pro erstellten URLs UTM-Tags hinzu. Erfordert die Anwendung eines anderen URL-Kürzers als 'WordPress'."
+
+msgid "Admin panel language"
+msgstr "Admin-Panel-Sprache"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "All sites can publish to this account"
+msgstr "Alle Seiten können auf diesen Account veröffentlichen"
+
+msgid "Allow other WordPress users to add their own Twitter accounts"
+msgstr "Anderen WordPress-Benutzern erlauben, ihre eigenen Twitter-Accounts hinzuzufügen."
+
+msgid "Are you sure would would like to publish the tweet(s) for this post?"
+msgstr "Sind Sie sicher, dass Sie diese(n) Tweet(s) für diesen Beitrag veröffentlichen möchten?"
+
+msgid "At a Glance"
+msgstr "Auf einen Blick"
+
+msgid "Authentication signature for YOURLS"
+msgstr "Authentifizierugssignatur für YOURLS"
+
+msgid "Authorize New Account"
+msgstr "Neuen Account autorisieren"
+
+msgid "Auto-detect"
+msgstr "Autoerkennung"
+
+msgid "Automatic"
+msgstr "Automatisch"
+
+msgid "Bit.ly API key"
+msgstr "Bit.ly API-Schlüssel"
+
+msgid "Bit.ly username"
+msgstr "Bit.ly-Benutzername"
+
+msgid "Can be found in the YOURLS administration panel."
+msgstr "Findet sich auf dem Adminstration-Panel von YOURLS."
+
+msgid "Choose from recent Hashtags"
+msgstr "Wählen Sie aus aktuellen Hashtags"
+
+msgid "Click the 'Add Account' button above to add your first Twitter account"
+msgstr "Klicken Sie oben auf den 'Account hinzufügen', um Ihren ersten Twitter-Account hinzuzufügen"
+
+msgid "Consumer Key"
+msgstr "Verbraucherschlüssel"
+
+msgid "Consumer Secret"
+msgstr "Verbrauchergeheimnis"
+
+msgid "Curl"
+msgstr "Wirbeln"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+msgid "Custom Application"
+msgstr "Benutzerdef. Anwendung"
+
+msgid "Custom Content"
+msgstr "Benutzerdef. Inhalt"
+
+msgid "Custom tweet template"
+msgstr "Benutzerdef. Tweet-Vorlage"
+
+msgid "Date/Time"
+msgstr "Datum/Zeit"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Defaults restored"
+msgstr "Standards wiederhergestellt"
+
+msgid "Delay"
+msgstr "Verzögern"
+
+msgid "Delay the first tweet by"
+msgstr "Den ersten Tweet verzögern um"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete log item"
+msgstr "Protokollpunkt löschen"
+
+msgid "Disable warning message when retweeting from the post widget"
+msgstr "Warnmeldung beim Retweeten vom Beitragswidget deaktivieren"
+
+msgid "Disabled for this post"
+msgstr "Für diesen Beitrag deaktiviert"
+
+msgid "Do not tweet"
+msgstr "Nicht tweeten"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Done"
+msgstr "Fertig"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Editors"
+msgstr "Redakteure"
+
+msgid "Editors and Authors"
+msgstr "Redakteure und Autoren"
+
+msgid "Enter a comma-separated list of custom post types that will be Tweeted automatically."
+msgstr "Geben Sie eine mit Komma getrennte Liste benutzerdef. Beitragstypen ein, die automatisch getweetet werden."
+
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+msgid "Followers"
+msgstr "Followers"
+
+msgid "From the BraveNewCode Blog"
+msgstr "Aus dem BraveNewCode-Blog"
+
+msgid "Full URL path to yourls-api.php"
+msgstr "Vollständiger URL-Pfad zu yourls-api-php"
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Get started with Activation &raquo;"
+msgstr "Beginnen Sie mit der Aktivierung &raquo;"
+
+msgid "Hashtags"
+msgstr "Hashtags"
+
+msgid "Incorrect"
+msgstr "Falsch"
+
+msgid "Individual tweet template"
+msgstr "Einzelne Tweet-Vorlage"
+
+msgid "LICENSED"
+msgstr "LIZENZIERT"
+
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+msgid "License Remaining"
+msgid_plural "Licenses Remaining"
+msgstr[0] "Lizenz übrig"
+msgstr[1] "Lizenzen übrig"
+
+msgid "License accepted, thank you for supporting WordTwit Pro!"
+msgstr "Lizenz akzeptiert, danke, dass Sie WordTwit Pro unterstützen!"
+
+msgid "List of custom post types to Tweet"
+msgstr "Liste benutzerdef. Beitragstypen zum Tweeten"
+
+msgid "Loading licenses from the BNC server..."
+msgstr "Lizenzen werden vom BNC-Server geladen..."
+
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+msgid "Long URLs will automatically be shortened using the specified URL shortener"
+msgstr "Lange URLS werden mit dem angegebenen URL-Kürzer automatisch gekürzt."
+
+msgid "Make Private"
+msgstr "Privat stellen"
+
+msgid "Make Shared"
+msgstr "Als geteilt markieren"
+
+msgid "Make Site-wide"
+msgstr "Seitenweit einstellen"
+
+msgid "Manage Licenses"
+msgstr "Lizenzen verwalten"
+
+msgid "Manual"
+msgstr "Manuell"
+
+msgid "Me"
+msgstr "Ich"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "My Account"
+msgstr "Mein Account"
+
+msgid "New [post_type]: %s"
+msgstr "Neue(r/s) [post_type]: %s"
+
+msgid "New [post_type]: [title] - [link] [hashtags]"
+msgstr "Neue(r/s) [post_type]: [title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [full_author] - [link] [hashtags]"
+msgstr "Neue(r/s) [post_type]: [title] von [full_author] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [short_author] - [link] [hashtags]"
+msgstr "Neue(r/s) [post_type]: [title] von [short_author] - [link] [hashtags]"
+
+msgid "No accounts configured yet"
+msgstr "Noch keine Accounts konfiguriert"
+
+msgid "No issues"
+msgstr "Keine Probleme"
+
+msgid "No tweets found"
+msgstr "Keine Tweets gefunden"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Oops! Try saving again."
+msgstr "Ups! Versuchen Sie erneut zu speichern"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "Others can publish to this account"
+msgstr "Andere können in diesem Account veröffentlichen"
+
+msgid "Overview"
+msgstr "Übersicht"
+
+msgid "Owned by %s"
+msgstr "Im Besitz von %s"
+
+msgid "Pending"
+msgstr "Ausstehend"
+
+msgid "Please enter your Account E-Mail and License Key to begin the license activation process, or %spurchase a license &raquo;%s"
+msgstr "Bitte geben Sie Ihre Account-E-Mail und Ihren Lizenzschlüssel ein, um den Lizenzaktivierungsvorgang zu beginnen oder %skaufen Sie eine Lizenz &raquo;%s"
+
+msgid "Plugin Status"
+msgstr "Plugin-Status"
+
+msgid "Private"
+msgstr "Privat"
+
+msgid "Publish Now"
+msgstr "Jetzt veröffentlichen"
+
+msgid "Publish Status"
+msgstr "Veröffentlichungsstatus"
+
+msgid "Publish this tweet"
+msgstr "Diesen Tweet veröffentlichen"
+
+msgid "Published"
+msgstr "Veröffentlicht"
+
+msgid "Published Tweet"
+msgid_plural "Published Tweets"
+msgstr[0] "Veröffentlichter Tweet"
+msgstr[1] "Veröffentlichte Tweets"
+
+msgid "Purchase More Licenses"
+msgstr "Weitere Lizenzen kaufen"
+
+msgid "Purchase a license"
+msgstr "Eine Lizenz kaufen"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Remove"
+msgstr "Löschen"
+
+msgid "Remove license?"
+msgstr "Lizenz löschen?"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Reset Licenses Now"
+msgstr "Lizenzen jetzt zurücksetzen"
+
+msgid "Reset Settings"
+msgstr "Einstellungen zurücksetzen"
+
+msgid "Reset all WordTwit Pro admin settings?"
+msgstr "Alle WordTwit-Pro-Admin-Einstellungen zurücksetzen?"
+
+msgid "Reset to Automatic to re-enable hashtags"
+msgstr "Auf automatisch zurücksetzen, um Hashtags erneut zu aktivieren"
+
+msgid "Retweet"
+msgstr "Retweet"
+
+msgid "Right Now"
+msgstr "Jetzt gleich"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Saving"
+msgstr "Wird gespeichert"
+
+msgid "Saving..."
+msgstr "Wird gespeichert..."
+
+msgid "Schedule"
+msgstr "Plan"
+
+msgid "Scheduled"
+msgstr "Geplant"
+
+msgid "Scheduled Tweet"
+msgid_plural "Scheduled Tweets"
+msgstr[0] "Geplanter Tweet"
+msgstr[1] "Geplante Tweets"
+
+msgid "Screen Name"
+msgstr "Bildschirmname"
+
+msgid "Security check failed"
+msgstr "Sicherheitsprüfung fehlgeschlagen"
+
+msgid "Separate multiple hashtags with commas"
+msgstr "Trennen Sie mehrere Hashtags mit Kommas"
+
+msgid "Separated by"
+msgstr "Getrennt von"
+
+msgid "Server Time"
+msgstr "Serverzeit"
+
+msgid "Settings saved!"
+msgstr "Einstellungen gespeichert!"
+
+msgid "Shared"
+msgstr "Geteilt"
+
+msgid "Shorten post titles to maintain tweet character limit"
+msgstr "Kürzen Sie Beitragstitel, um die Zeichenbegrenzung für Tweets einzuhalten"
+
+msgid "Shortening Method"
+msgstr "Kürzungsmethode"
+
+msgid "Site-wide"
+msgstr "Seitenweit"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Support Forums"
+msgstr "Support-Foren"
+
+msgid "Terms &amp; Legal"
+msgstr "Bedingungen &amp; Rechtliches"
+
+msgid "Thank you for supporting us!"
+msgstr "Danke, dass Sie uns unterstützen!"
+
+msgid "The BraveNewCode Blog timed out."
+msgstr "Zeitüberschreitung beim BraveNewCode-Blog."
+
+msgid "The Twitter API requires the time on your server to be correct.  You can use this field to add or subtract an amount of time. Number is in seconds only. e.g. 3600 (equals 1 hour)"
+msgstr "Für die Twitter-API muss die Zeit auf Ihrem Server stimmen. Sie können dieses Feld benutzen, um eine Zeitmenge hinzuzufügen oder abzuziehen. Die Zahl ist nur in Sekunden, z. B. 3600 (entspricht 1 Stunde)"
+
+msgid "The import key you used is not valid.  Please try a copy/paste of your key again."
+msgstr "Der von Ihnen benutzte Importschlüssel ist nicht gültig. Bitte versuchen Sie Ihren Schlüssel erneut zu kopieren/einzufügen."
+
+msgid "The professional version of the popular WordPress to Twitter publishing tool."
+msgstr "Die professionelle Version des beliebten WordPress-auf-Twitter-Veröffentlichungstools."
+
+msgid "There are currently no accounts configured."
+msgstr "Derzeit sind keine Accounts konfiguriert."
+
+msgid "There are no Twitter accounts registered"
+msgstr "Es sind keine Twitter-Accounts registriert"
+
+msgid "This Account E-Mail/License Key combination you have entered was rejected by the BraveNewCode server. Please try again."
+msgstr "Die von Ihnen eingegebene Account-E-Mail/Lizenzschlüssel-Kombination wurde vom BraveNewCode-Server abgelehnt. Bitte versuchen Sie es erneut."
+
+msgid "This copy of WordTwit Pro %s is unlicensed."
+msgstr "Diese Kopie von WordTwit Pro %s ist unlizenziert."
+
+msgid "This copy of WordTwit Pro is partially activated."
+msgstr "Diese Kopie von WordTwit Pro ist teilweise aktiviert."
+
+msgid "This operation cannot be undone."
+msgstr "Dieser Vorgang kann nicht rückgängig gemacht werden."
+
+msgid "Tracking"
+msgstr "Verfolgung"
+
+msgid "Tweet"
+msgstr "Tweet"
+
+msgid "Tweet Log"
+msgstr "Tweet-Protokoll"
+
+msgid "Tweet Now"
+msgstr "Jetzt tweeten"
+
+msgid "Tweet Templates"
+msgstr "Vorlagen tweeten"
+
+msgid "Tweet URLs will be changed to pass Twitter's duplicate tweet restrictions."
+msgstr "Tweet-URLs werden geändert, um die Duplikat-Tweet-Beschränkungen von Twitter zu umgehen."
+
+msgid "Tweet mode is manual"
+msgstr "Tweet-Modus ist manuell"
+
+msgid "Tweet time offset to correct server mismatch. %sEstimate now%s"
+msgstr "Verschiebung der Tweet-Zeit zum Ausgleich des Server-Unterschieds %sJetzt schätzen%s"
+
+msgid "TwitBoard"
+msgstr "TwitBoard"
+
+msgid "Twitter API Compliance"
+msgstr "Twitter-API-Übereinstimmung"
+
+msgid "Twitter Account"
+msgid_plural "Twitter Accounts"
+msgstr[0] "Twitter-Account"
+msgstr[1] "Twitter-Accounts"
+
+msgid "Twitter Accounts"
+msgstr "Twitter-Accounts"
+
+msgid "Twitter.com Status"
+msgstr "Twitter.com-Status"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "UNLICENSED"
+msgstr "UNLIZENZIERT"
+
+msgid "URL Shortener"
+msgstr "URL-Kürzer"
+
+msgid "UTM campaign tag"
+msgstr "UTM-Kampagnen-Tag"
+
+msgid "UTM medium tag"
+msgstr "UTM-Medium-Tag"
+
+msgid "UTM source tag"
+msgstr "UTM-Quell-Tag"
+
+msgid "Unable to verify WordTwit Pro nonce"
+msgstr "WordTwit Pro-Nonce konnte nicht verifiziert werden"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "Unpublished"
+msgstr "Noch nicht veröffentlicht"
+
+msgid "Unpublished - Old Post"
+msgstr "Noch nicht veröffentlicht - Alter Beitrag"
+
+msgid "Up to date"
+msgstr "Auf dem neuesten Stand"
+
+msgid "Updates"
+msgstr "Updates"
+
+msgid "Upgrade Available"
+msgstr "Upgrade verfügbar"
+
+msgid "Valid tags are [post_type], [link], [title], [full_author], [short_author], and [hashtags]."
+msgstr "Gültige Tags sind [post_type], [link], [title], [full_author], [short_author] und [hashtags]."
+
+msgid "Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts."
+msgstr "Warnung: Wenn Sie Ihren Verbraucherschlüssel oder Ihr Geheimnis ändern, werden Sie alle Ihre Accounts erneut autorisieren müssen."
+
+msgid "When you publish tweets they'll appear here."
+msgstr "Wenn Sie Tweets veröffentlichen, erscheinen diese hier."
+
+msgid "Will be tweeted"
+msgstr "Wird getweetet"
+
+msgid "WordPress users levels authorized to add Twitter accounts"
+msgstr "WordPress-Benutzerebenen zum Hinzufügen von Twitter-Accounts autorisiert"
+
+msgid "WordTwit News"
+msgstr "WordTwit-Nachrichten"
+
+msgid "WordTwit Pro"
+msgstr "WordTwit Pro"
+
+msgid "WordTwit Pro Changelog"
+msgstr "WordTwit Pro Änderungsprotokoll"
+
+msgid "WordTwit Pro is a trademark of %sBraveNewCode Inc.%s"
+msgstr "WordTwit Pro ist ein Handelszeichen von %sBraveNewCode Inc.%s"
+
+msgid "WordTwit Settings"
+msgstr "WordTwit-Einstellungen"
+
+msgid "WordTwit Version"
+msgstr "WordTwit-Version"
+
+msgid "You can also create %sa custom application via Twitter%s and have WordTwit tweet on from your application's namesake. Clear both of these fields to use the default Twitter OAuth configuration."
+msgstr "Sie können auch %sa benutzerdef. Anwendungen über Twitter%s erstellen und WordTwit vom Namenvetter Ihrer Anwendung aus tweeten lassen. Löschen Sie diese beiden Felder, um die Standard-Twitter-OAuth-Konfiguration zu benutzen."
+
+msgid "You can enter a custom tweet template to be used here."
+msgstr "Sie können eine benutzerdef. Tweet-Vorlage eingeben, die hier verwendet werden soll."
+
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr "Sie haben diese Seiten für automatische Upgrades & Support aktiviert:"
+
+msgid "You have not activated a license for this WordPress installation."
+msgstr "Sie haben keine Lizenz für diese WordPress-Installation aktiviert."
+
+msgid "You have not added any Twitter accounts yet"
+msgstr "Sie haben noch keine Twitter-Accounts hinzugefügt"
+
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr "Sie werden in %d Tag(en) erneut Lizenzen zurücksetzen können."
+
+msgid "Your Account E-Mail and License Key are required to enable site licenses for support and auto-upgrades with WordTwit Pro."
+msgstr "Ihre Account-E-Mail und Ihr Lizenzschlüssel sind erforderlich, um die Seitenlizenzen für Support und Auto-Upgrades mit WordTwit Pro zu aktivieren."
+
+msgid "Your Account E-Mail and License Key have been accepted. <br />Next, %sconnect a site license%s to this domain to enable support and automatic upgrades."
+msgstr "Ihre Account-E-Mail und Ihr Lizenzschlüssel wurden akzeptiert.<br />Als nächstes %sverbinden Sie eine Seitenlizenz%s mit dieser Domain, um Support und automatische Upgrades zu aktivieren"
+
+msgid "Your tweet is too long. It must be 140 characters or less."
+msgstr "Ihr Tweet ist zu lang. Er muss 140 oder weniger Zeichen haben."
+
+msgid "[title] by [full_author] - [link] [hashtags]"
+msgstr "[title] von [full_author] - [link] [hashtags]"
+
+msgid "[title] by [short_author] - [link] [hashtags]"
+msgstr "[title] von [short_author] - [link] [hashtags]"
+
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+msgid "private"
+msgstr "privat"
+
+msgid "shared"
+msgstr "geteilt"

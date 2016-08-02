@@ -1,0 +1,659 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d Pending
+{ICL_PLURAL}
+%d Pending"
+msgstr "%d 保留{ICL_PLURAL}
+%d 保留"
+
+msgid "%d Tweeted"
+msgid_plural "%d Tweeted"
+msgstr[0] "%d ツイート済み"
+msgstr[1] "%d ツイート済み"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 時間"
+msgstr[1] "%d 時間"
+
+msgid "%d mins"
+msgstr "%d 分"
+
+msgid "%d times"
+msgstr "%d 回"
+
+msgid "%s (Missing)"
+msgstr "%s (紛失)"
+
+msgid "%s items"
+msgstr "%s アイテム"
+
+msgid "%s%d%s license(s) remaining."
+msgstr "%s%d%s ライセンスが残っています。"
+
+msgid "(%d Pending)"
+msgid_plural "(%d Pending)"
+msgstr[0] "(%d 保留)"
+msgstr[1] "(%d 保留)"
+
+msgid "(%d Tweeted)"
+msgid_plural "(%d Tweeted)"
+msgstr[0] "(%d ツイート済み)"
+msgstr[1] "(%d ツイート済み)"
+
+msgid "* You can reset all support and auto-upgrade licenses once every %d days."
+msgstr "* 全サポートと自動アップグレードライセンスは%d 日毎にリセットできます。"
+
+msgid ", %d mins"
+msgstr ", %d 分"
+
+msgid "1 time"
+msgstr "1回"
+
+msgid "ACTIVATION REQUIRED"
+msgstr "アクティベーションが必要です"
+
+msgid "API connection failed"
+msgstr "API 接続が失敗しました"
+
+msgid "Account"
+msgstr "アカウント"
+
+msgid "Account + Licenses"
+msgstr "アカウント + ライセンス"
+
+msgid "Account E-Mail"
+msgstr "アカウント電子メール"
+
+msgid "Account Information"
+msgstr "アカウント情報"
+
+msgid "Accounts"
+msgstr "アカウント"
+
+msgid "Accurate"
+msgstr "正確"
+
+msgid "Activate This WordPress installation &raquo;"
+msgstr "このWordPress インストレーションをアクティベートする &raquo;"
+
+msgid "Activate license"
+msgstr "ライセンスをアクティベートする"
+
+msgid "Active Site Licenses"
+msgstr "有効なサイトライセンス"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add Account"
+msgstr "アカウントを追加"
+
+msgid "Add An Account"
+msgstr "アカウントを追加"
+
+msgid "Add New Hashtag"
+msgstr "新しいハッシュタグ"
+
+msgid "Add UTM tracking tags to Tweeted URLs"
+msgstr "ツイートされたURLにUTMトラッキングタグを追加"
+
+msgid "Add a site license &raquo;"
+msgstr "サイトライセンスを追加&raquo;"
+
+msgid "Add an account"
+msgstr "アカウントを追加する"
+
+msgid "Adds UTM tags to the URLs created by WordTwit Pro. Requires a URL shortener other than 'WordPress' to be used."
+msgstr "WordTwit Proにより作成されたURLにUTMタグを追加。'WordPress'の使用の他にはURL短縮サービスが必要です。"
+
+msgid "Admin panel language"
+msgstr "管理パネル言語"
+
+msgid "Administrator"
+msgstr "アドミニトレーター"
+
+msgid "Advanced"
+msgstr "上級"
+
+msgid "All"
+msgstr "すべて"
+
+msgid "All sites can publish to this account"
+msgstr "すべてのサイトをこのアカウントで公開できます。"
+
+msgid "Allow other WordPress users to add their own Twitter accounts"
+msgstr "他のWordPress ユーザーに彼らのTwitterアカウントを追加させます。"
+
+msgid "Are you sure would would like to publish the tweet(s) for this post?"
+msgstr "本当にこの投稿にツイートを公開しますか？"
+
+msgid "At a Glance"
+msgstr "一覧"
+
+msgid "Authentication signature for YOURLS"
+msgstr "YOURLS用の認証サイン"
+
+msgid "Authorize New Account"
+msgstr "新規アカウントを許可する"
+
+msgid "Auto-detect"
+msgstr "自動検出"
+
+msgid "Automatic"
+msgstr "自動"
+
+msgid "Bit.ly API key"
+msgstr "Bit.ly API キー"
+
+msgid "Bit.ly username"
+msgstr "Bit.ly ユーザーネーム"
+
+msgid "Can be found in the YOURLS administration panel."
+msgstr "YOURLS 管理パネルにあります。"
+
+msgid "Choose from recent Hashtags"
+msgstr "最近のハッシュタグから選択する"
+
+msgid "Click the 'Add Account' button above to add your first Twitter account"
+msgstr "あなたの最初のTwitterアカウントを追加するには、上記のアカウントを追加' ボタンをクリックしてください"
+
+msgid "Consumer Key"
+msgstr "コンシューマー・キー"
+
+msgid "Consumer Secret"
+msgstr "コンシューマー･シークレット"
+
+msgid "Curl"
+msgstr "Curl"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Custom Application"
+msgstr "カスタムアプリケーション"
+
+msgid "Custom Content"
+msgstr "カスタムコンテンツ"
+
+msgid "Custom tweet template"
+msgstr "カスタムツイートテンプレート"
+
+msgid "Date/Time"
+msgstr "日/時"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Defaults restored"
+msgstr "デフォルトが復元されました"
+
+msgid "Delay"
+msgstr "遅れ"
+
+msgid "Delay the first tweet by"
+msgstr "最初のツイートを遅らせる時間："
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Delete log item"
+msgstr "ログアイテムを削除"
+
+msgid "Disable warning message when retweeting from the post widget"
+msgstr "投稿ウイジェットからリツィートする時、警告を無効にする"
+
+msgid "Disabled for this post"
+msgstr "この投稿には無効"
+
+msgid "Do not tweet"
+msgstr "ツイートしない"
+
+msgid "Documentation"
+msgstr "書類"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Editors"
+msgstr "編集者"
+
+msgid "Editors and Authors"
+msgstr "編集者と著者"
+
+msgid "Enter a comma-separated list of custom post types that will be Tweeted automatically."
+msgstr "自動的にツイートされるカスタム投稿タイプをカンマ区切りリストで入力してください。"
+
+msgid "Failed"
+msgstr "失敗"
+
+msgid "Followers"
+msgstr "フォロワー"
+
+msgid "From the BraveNewCode Blog"
+msgstr "the BraveNewCode ブログより"
+
+msgid "Full URL path to yourls-api.php"
+msgstr "yourls-api.phpへの完全URLパス"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Get started with Activation &raquo;"
+msgstr "アクティベーションを開始する &raquo;"
+
+msgid "Hashtags"
+msgstr "ハッシュタグ"
+
+msgid "Incorrect"
+msgstr "不正確"
+
+msgid "Individual tweet template"
+msgstr "個別のツイートテンプレート"
+
+msgid "LICENSED"
+msgstr "ライセンス済み"
+
+msgid "License Key"
+msgstr "ライセンスキー"
+
+msgid "License Remaining"
+msgid_plural "Licenses Remaining"
+msgstr[0] "残りのライセンス"
+msgstr[1] "残りのライセンス"
+
+msgid "License accepted, thank you for supporting WordTwit Pro!"
+msgstr "ライセンスが承諾されました。WorldTwit Proをご支援いただき、ありがとうございます！"
+
+msgid "List of custom post types to Tweet"
+msgstr "ツイート用のカスタム投稿タイプリスト"
+
+msgid "Loading licenses from the BNC server..."
+msgstr "BNCサーバーからライセンスを読み込み中..."
+
+msgid "Loading..."
+msgstr "読み込み中..."
+
+msgid "Long URLs will automatically be shortened using the specified URL shortener"
+msgstr "特定のURL短縮サービスを使用すると長いURLは自動的に短縮されます"
+
+msgid "Make Private"
+msgstr "プライベートにする"
+
+msgid "Make Shared"
+msgstr "共有を作成"
+
+msgid "Make Site-wide"
+msgstr "サイト全体にする"
+
+msgid "Manage Licenses"
+msgstr "ライセンス管理"
+
+msgid "Manual"
+msgstr "手動"
+
+msgid "Me"
+msgstr "私"
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "My Account"
+msgstr "マイアカウント"
+
+msgid "New [post_type]: %s"
+msgstr "新規[post_type]: %s"
+
+msgid "New [post_type]: [title] - [link] [hashtags]"
+msgstr "新規 [post_type]: [title] - [link] [hashtags]"
+
+msgid "New [post_type]: [title] by [full_author] - [link] [hashtags]"
+msgstr "[full_author] - [link] [hashtags] による新規[post_type]: [title]"
+
+msgid "New [post_type]: [title] by [short_author] - [link] [hashtags]"
+msgstr "[short_author] - [link] [hashtags]による新規 [post_type]: [title]"
+
+msgid "No accounts configured yet"
+msgstr "設定済みのアカウントがありません"
+
+msgid "No issues"
+msgstr "問題ありません"
+
+msgid "No tweets found"
+msgstr "ツイートがありません"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Oops! Try saving again."
+msgstr "おっと! もう一度保存してください。"
+
+msgid "Options"
+msgstr "オプション"
+
+msgid "Others can publish to this account"
+msgstr "他の人がこのアカウントに公開できます"
+
+msgid "Overview"
+msgstr "概要"
+
+msgid "Owned by %s"
+msgstr "%s所有"
+
+msgid "Pending"
+msgstr "保留中"
+
+msgid "Please enter your Account E-Mail and License Key to begin the license activation process, or %spurchase a license &raquo;%s"
+msgstr "ライセンスアクティベーション、または%sライセンス購入&raquo;%sを開始するには、アカウントEメールとライセンス・キーを入力してください。"
+
+msgid "Plugin Status"
+msgstr "プラグインステータス"
+
+msgid "Private"
+msgstr "プライベート"
+
+msgid "Publish Now"
+msgstr "今すぐ公開"
+
+msgid "Publish Status"
+msgstr "公開ステータス"
+
+msgid "Publish this tweet"
+msgstr "このツイートを公開する"
+
+msgid "Published"
+msgstr "公開済み"
+
+msgid "Published Tweet"
+msgid_plural "Published Tweets"
+msgstr[0] "公開されたツイート"
+msgstr[1] "公開されたツイート"
+
+msgid "Purchase More Licenses"
+msgstr "もっとライセンスを購入する"
+
+msgid "Purchase a license"
+msgstr "ライセンス購入"
+
+msgid "Refresh"
+msgstr "リフレッシュ"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Remove license?"
+msgstr "ライセンスを削除しますか？"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Reset Licenses Now"
+msgstr "今ライセンスをリセットする"
+
+msgid "Reset Settings"
+msgstr "設定をリセット"
+
+msgid "Reset all WordTwit Pro admin settings?"
+msgstr "WordTwit Pro 管理設定をすべてリセットしますか？"
+
+msgid "Reset to Automatic to re-enable hashtags"
+msgstr "自動から再有効のハッシュタグにリセット"
+
+msgid "Retweet"
+msgstr "リツイート"
+
+msgid "Right Now"
+msgstr "今すぐ"
+
+msgid "Save Changes"
+msgstr "変更を保存"
+
+msgid "Saving"
+msgstr "保存中"
+
+msgid "Saving..."
+msgstr "保存中..."
+
+msgid "Schedule"
+msgstr "スケジュール"
+
+msgid "Scheduled"
+msgstr "スケジュール済み"
+
+msgid "Scheduled Tweet"
+msgid_plural "Scheduled Tweets"
+msgstr[0] "スケジュール済みツイート"
+msgstr[1] "スケジュール済みツイート"
+
+msgid "Screen Name"
+msgstr "スクリーン名"
+
+msgid "Security check failed"
+msgstr "セキュリティチェック失敗"
+
+msgid "Separate multiple hashtags with commas"
+msgstr "複数のハッシュタグをカンマで分けます"
+
+msgid "Separated by"
+msgstr "右記により分離済み："
+
+msgid "Server Time"
+msgstr "サーバー時間"
+
+msgid "Settings saved!"
+msgstr "設定が保存されました！"
+
+msgid "Shared"
+msgstr "共有済み"
+
+msgid "Shorten post titles to maintain tweet character limit"
+msgstr "ツイート文字数制限を維持するために、投稿タイトルを短縮してください"
+
+msgid "Shortening Method"
+msgstr "短縮方法"
+
+msgid "Site-wide"
+msgstr "サイト全体"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Support Forums"
+msgstr "サポートフォーラム"
+
+msgid "Terms &amp; Legal"
+msgstr "利用規約&amp; 法的"
+
+msgid "Thank you for supporting us!"
+msgstr "ご支援ありがとうございます！"
+
+msgid "The BraveNewCode Blog timed out."
+msgstr "The BraveNewCode ブログがタイムアウトしました。"
+
+msgid "The Twitter API requires the time on your server to be correct.  You can use this field to add or subtract an amount of time. Number is in seconds only. e.g. 3600 (equals 1 hour)"
+msgstr "Twitter API は精度のために、あなたのサーバーの時間を必要とします。このフィールドを使い、かかる時間を足し引きすることができます。数字は秒単位のみです。例、3600（=1時間）"
+
+msgid "The import key you used is not valid.  Please try a copy/paste of your key again."
+msgstr "使用したインポート･キーは正しくありません。あなたのキーをもう一度コピー/貼り付けしてください。"
+
+msgid "The professional version of the popular WordPress to Twitter publishing tool."
+msgstr "人気の高いWordPress のプロフェッショナルバージョンにTwitter公開ツール。"
+
+msgid "There are currently no accounts configured."
+msgstr "現在設定するアカウントはありません。"
+
+msgid "There are no Twitter accounts registered"
+msgstr "登録済みTwitter アカウントがありません"
+
+msgid "This Account E-Mail/License Key combination you have entered was rejected by the BraveNewCode server. Please try again."
+msgstr "あなたが入力したこのアカウントEメール/ライセンス・キーのコンビネーションは BraveNewCode のサーバー拒否されました。もう一度お試し下さい。"
+
+msgid "This copy of WordTwit Pro %s is unlicensed."
+msgstr "このWordTwit Pro %s のコピーはライセンスされていません。"
+
+msgid "This copy of WordTwit Pro is partially activated."
+msgstr "このコピーの WordTwit Pro が部分的にアクティベートされました。"
+
+msgid "This operation cannot be undone."
+msgstr "この操作は元に戻せません。"
+
+msgid "Tracking"
+msgstr "トラッキング"
+
+msgid "Tweet"
+msgstr "ツイート"
+
+msgid "Tweet Log"
+msgstr "ツイートログ"
+
+msgid "Tweet Now"
+msgstr "今ツイートする"
+
+msgid "Tweet Templates"
+msgstr "ツイートテンプレート"
+
+msgid "Tweet URLs will be changed to pass Twitter's duplicate tweet restrictions."
+msgstr "Twitterの重複ツイート制限をパスするためにツイートURLが変更されます。"
+
+msgid "Tweet mode is manual"
+msgstr "ツイートモードが手動です"
+
+msgid "Tweet time offset to correct server mismatch. %sEstimate now%s"
+msgstr "サーバーのミスマッチを修正するためにツイート時間がオフセットされました。 %s現在の推定時間%s"
+
+msgid "TwitBoard"
+msgstr "TwitBoard"
+
+msgid "Twitter API Compliance"
+msgstr "Twitter API コンプライアンス"
+
+msgid "Twitter Account"
+msgid_plural "Twitter Accounts"
+msgstr[0] "Twitter アカウント"
+msgstr[1] "Twitter アカウント"
+
+msgid "Twitter Accounts"
+msgstr "Twitter アカウント"
+
+msgid "Twitter.com Status"
+msgstr "Twitter.com ステータス"
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "UNLICENSED"
+msgstr "ライセンスなし"
+
+msgid "URL Shortener"
+msgstr "URL短縮サービス"
+
+msgid "UTM campaign tag"
+msgstr "UTM キャンペーンタグ"
+
+msgid "UTM medium tag"
+msgstr "UTM ミディアムタグ"
+
+msgid "UTM source tag"
+msgstr "UTM ソースタグ"
+
+msgid "Unable to verify WordTwit Pro nonce"
+msgstr "WordTwit Pro ノンスを確認できません"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Unpublished"
+msgstr "非公開"
+
+msgid "Unpublished - Old Post"
+msgstr "非公開－古い投稿"
+
+msgid "Up to date"
+msgstr "最新"
+
+msgid "Updates"
+msgstr "アップデート"
+
+msgid "Upgrade Available"
+msgstr "アップグレードを利用できます"
+
+msgid "Valid tags are [post_type], [link], [title], [full_author], [short_author], and [hashtags]."
+msgstr "正しいタグは[post_type]、 [link]、 [title]、 [full_author]、 [short_author]、 [hashtags]です。"
+
+msgid "Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts."
+msgstr "警告：コンシューマー・キーやシークレットを変更すると、アカウントすべてを再び許可しなくてはなりません。"
+
+msgid "When you publish tweets they'll appear here."
+msgstr "ツイートを公開すると、ここに表示されます。"
+
+msgid "Will be tweeted"
+msgstr "ツイート予定"
+
+msgid "WordPress users levels authorized to add Twitter accounts"
+msgstr "WordPress ユーザーレベルはTwitter アカウントの追加を許可されます"
+
+msgid "WordTwit News"
+msgstr "WordTwit ニュース"
+
+msgid "WordTwit Pro"
+msgstr "WordTwit Pro"
+
+msgid "WordTwit Pro Changelog"
+msgstr "WordTwit Pro 変更ログ"
+
+msgid "WordTwit Pro is a trademark of %sBraveNewCode Inc.%s"
+msgstr "WordTwit Proは%sBraveNewCode Inc.%sの商標です。"
+
+msgid "WordTwit Settings"
+msgstr "WordTwit 設定"
+
+msgid "WordTwit Version"
+msgstr "WordTwit バージョン"
+
+msgid "You can also create %sa custom application via Twitter%s and have WordTwit tweet on from your application's namesake. Clear both of these fields to use the default Twitter OAuth configuration."
+msgstr "Twitter%sを通して%sカスタムアプリケーションを作成し、あなたのアプリケーションの名前をWordTwitにツイートさせることができます。デフォルトTwitter OAuth 認証設定を使用するために両方のフィールドを消去してください。"
+
+msgid "You can enter a custom tweet template to be used here."
+msgstr "ここに使用するカスタムツイートテンプレートを入力できます。"
+
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr "これらのサイトの自動アップグレードとサポートをアクティベートしました。"
+
+msgid "You have not activated a license for this WordPress installation."
+msgstr "このWordPress インストレーションのライセンスをまだアクティベートしていません。"
+
+msgid "You have not added any Twitter accounts yet"
+msgstr "まだTwitter アカウントを追加していません"
+
+msgid "You will be able to reset licenses again in %d day(s)."
+msgstr "%d 日後にライセンスをリセットできます。"
+
+msgid "Your Account E-Mail and License Key are required to enable site licenses for support and auto-upgrades with WordTwit Pro."
+msgstr "WorldTwit Proのサポートと自動アップグレードのためのサイトライセンスを有効にするためには、あなたのアカウントEメールとライセンス・キーが必要です。"
+
+msgid "Your Account E-Mail and License Key have been accepted. <br />Next, %sconnect a site license%s to this domain to enable support and automatic upgrades."
+msgstr "あなたのアカウントEメールとライセンスキーが承認されました。<br />次に、サポートと自動アップグレードを有効にするために、このドメインに %sサイトライセンスを接続%s してください。"
+
+msgid "Your tweet is too long. It must be 140 characters or less."
+msgstr "あなたのツイートは長すぎます。140文字以下でなくてはなりません。"
+
+msgid "[title] by [full_author] - [link] [hashtags]"
+msgstr "[full_author] - [link] [hashtags]による[title]"
+
+msgid "[title] by [short_author] - [link] [hashtags]"
+msgstr "[short_author] - [link] [hashtags]による[title]"
+
+msgid "http://www.bravenewcode.com"
+msgstr "http://www.bravenewcode.com"
+
+msgid "private"
+msgstr "プライベート"
+
+msgid "shared"
+msgstr "共有"
