@@ -7,7 +7,12 @@ class WordTwitPro {
 	var $post;
 	var $get;
 
+	/**
+	 * @var WordTwitOAuth
+	 */
 	var $oauth;
+
+	var $directory_creation_failure = false;
 
 	var $transient_set;
 
@@ -67,7 +72,6 @@ class WordTwitPro {
 		add_action( 'init', array( &$this, 'check_for_wordtwit_urls' ) );
 
 		add_action( 'admin_head', array( &$this, 'wordtwit_admin_head' ) );
-		add_action( 'admin_init', array( &$this, 'wordtwit_admin_init' ) );
 		add_action( 'admin_init', array( &$this, 'check_for_new_account' ), 5 );
 		add_action( 'admin_init', array( &$this, 'check_for_account_actions' ) );
 		add_action( 'admin_init', array( &$this, 'check_for_tweet_log_actions' ) );
@@ -99,10 +103,10 @@ class WordTwitPro {
 				if ( $possible_url && strlen( $possible_url ) < 6 ) {
 					$tiny_url = $possible_url;
 
-					$result = $wpdb->get_row( $wpdb->prepare( "SELECT original FROM " . $wpdb->prefix . "tweet_urls WHERE url = %s", $tiny_url ) );
+					$result = $wpdb->get_row( $wpdb->prepare( 'SELECT original FROM ' . $wpdb->prefix . 'tweet_urls WHERE url = %s', $tiny_url ) );
 					if ( $result ) {
-						header( "HTTP/1.1 301 Moved Permanently" );
-						header( "Location: " . $result->original );
+						header( 'HTTP/1.1 301 Moved Permanently' );
+						header( 'Location: ' . $result->original );
 						die;
 					}
 				}
@@ -131,7 +135,7 @@ class WordTwitPro {
 
 		$settings = wordtwit_get_settings();
 		// adjust oauth time if required
-		if ( $settings->oauth_time_offset != 0 ) {
+		if ( 0 != $settings->oauth_time_offset ) {
 			$this->oauth->set_oauth_time_offset( $settings->oauth_time_offset );
 		}
 
@@ -208,7 +212,7 @@ class WordTwitPro {
 						$tweet_result          = new stdClass;
 						$tweet_result->code    = $this->oauth->get_response_code();
 						$tweet_result->error   = $this->oauth->get_error_message();
-						$tweet_result->success = ( $tweet_result->code == 200 );
+						$tweet_result->success = ( 200 == $tweet_result->code );
 
 						// Save the created tweet ID
 						if ( is_numeric( $created_tweet_id ) ) {
@@ -218,10 +222,10 @@ class WordTwitPro {
 						update_post_meta( $tweet_id, 'wordtwit_result', $tweet_result );
 
 						// Check for a valid result code
-						if ( $tweet_result->code != 200 ) {
+						if ( 200 != $tweet_result->code ) {
 							// update the post status to ERROR
 							global $wpdb;
-							$wpdb->query( $wpdb->prepare( "UPDATE " . $wpdb->posts . " SET post_content = 'error' WHERE ID = %d", $tweet_id ) );
+							$wpdb->query( $wpdb->prepare( 'UPDATE ' . $wpdb->posts . ' SET post_content = %s WHERE ID = %d', 'error', $tweet_id ) );
 						} else {
 							// Check to see if we should clean up old tweets on this account
 							if ( $settings->remove_old_tweets ) {
@@ -244,7 +248,7 @@ class WordTwitPro {
 		require_once( WORDTWIT_DIR . '/include/post-box-functions.php' );
 
 		$tweet_info = wordtwit_get_saved_tweet_info( $post_id );
-		$settings   = wordtwit_get_settings();
+		wordtwit_get_settings();
 
 		$account_info = wordtwit_get_account_info( $account );
 		if ( $post_id && $tweet_info && $account && $account_info ) {
@@ -256,7 +260,7 @@ class WordTwitPro {
 				'post_title'   => $tweet_text,
 				'post_content' => 'ok',
 				'post_author'  => $post->post_author,
-				'post_type'    => 'tweet'
+				'post_type'    => 'tweet',
 			);
 
 			$should_publish = false;
@@ -314,17 +318,17 @@ class WordTwitPro {
 				return;
 			}
 
-			if ( $tweet_info->status == WORDTWIT_TWEET_PUBLISHED && ! $force_it && ! $tweet_info->allow_third_party ) {
+			if ( WORDTWIT_TWEET_PUBLISHED == $tweet_info->status && ! $force_it && ! $tweet_info->allow_third_party ) {
 				// Don't tweet posts that have already been tweeted
 				return;
 			}
 
-			if ( $tweet_info->status == WORDTWIT_TWEET_IS_OLD && ! $force_it ) {
+			if ( WORDTWIT_TWEET_IS_OLD == $tweet_info->status && ! $force_it ) {
 				// Don't allow publishing posts that are old
 				return;
 			}
 
-			if ( $tweet_info->status == WORDTWIT_TWEET_IS_DEFERRED && ! $force_it ) {
+			if ( WORDTWIT_TWEET_IS_DEFERRED == $tweet_info->status && ! $force_it ) {
 				// Don't allow publishing posts that were disabled originally, not without forcing
 				return;
 			}
@@ -385,7 +389,7 @@ class WordTwitPro {
 
 					require_once( WORDTWIT_DIR . '/include/post-box-functions.php' );
 					$tweet_info = wordtwit_get_saved_tweet_info( $this->post['post'] );
-					if ( $this->post['manual'] == 1 ) {
+					if ( 1 == $this->post['manual'] ) {
 						$tweet_info->manual = true;
 						$tweet_info->text   = $this->post['tweet_text'];
 					} else {
@@ -432,7 +436,7 @@ class WordTwitPro {
 					$url      = 'http://code.bravenewcode.com/time_offset/?unixtime=' . time();
 					$response = $http->request( $url );
 					if ( ! is_wp_error( $response ) ) {
-						if ( $response['response']['code'] == '200' ) {
+						if ( 200 == intval( $response['response']['code'] ) ) {
 							echo $response['body'];
 						}
 					}
@@ -467,7 +471,7 @@ class WordTwitPro {
 					break;
 				case 'update-account-order':
 					if ( isset( $this->post['account_order'] ) ) {
-						$account_order = explode( ",", $this->post['account_order'] );
+						$account_order = explode( ',', $this->post['account_order'] );
 						if ( $account_order ) {
 
 							$cur_user = wp_get_current_user();
@@ -507,7 +511,7 @@ class WordTwitPro {
 			array(
 				'label'  => __( 'Tweet Log', 'wordtwit-pro' ),
 				'name'   => 'tweet',
-				'public' => false
+				'public' => false,
 			)
 		);
 	}
@@ -558,7 +562,7 @@ class WordTwitPro {
 	function check_for_tweet_log_actions() {
 		if ( $this->is_admin_section() && isset( $this->get['wordtwit_tweet_action'] ) ) {
 			if ( $this->verify_get_nonce() ) {
-				$settings = $this->get_settings();
+				$this->get_settings();
 
 				$wordtwit_account_action = $this->get['wordtwit_tweet_action'];
 
@@ -586,7 +590,7 @@ class WordTwitPro {
 							$wpdb->posts,
 							array(
 								'post_date_gmt' => time() - 1,
-								'post_date'     => date( 'Y-m-d H:i:s', strtotime( current_time( 'mysql' ) ) )
+								'post_date'     => date( 'Y-m-d H:i:s', strtotime( current_time( 'mysql' ) ) ),
 							),
 							array( 'ID' => $this->get['log_id'] )
 						);
@@ -616,7 +620,7 @@ class WordTwitPro {
 				'log_id'                => null,
 				'wordtwit_nonce'        => null,
 				'wordtwit_tweet_action' => null,
-				'wordtwit_account'      => null
+				'wordtwit_account'      => null,
 			) );
 			header( 'Location: ' . $location );
 			die;
@@ -686,11 +690,8 @@ class WordTwitPro {
 									$site_accounts                                = $this->get_site_accounts();
 									$site_accounts[ $this->get['wordtwit_user'] ] = $account;
 									$this->save_site_accounts( $site_accounts );
-
 									break;
 							}
-
-
 						}
 						break;
 				}
@@ -774,7 +775,7 @@ class WordTwitPro {
 		// Check for language override
 		$settings = $this->get_settings();
 
-		if ( $settings->force_locale == 'english' ) {
+		if ( 'english' == $settings->force_locale ) {
 			// english can be forced when WordPress is set to use another language
 			// useful for our own internal support
 			return;
@@ -782,7 +783,7 @@ class WordTwitPro {
 
 		$current_locale = get_locale();
 
-		if ( $settings->force_locale != 'auto' ) {
+		if ( 'auto' != $settings->force_locale ) {
 			$current_locale = $settings->force_locale;
 		}
 
@@ -833,7 +834,7 @@ class WordTwitPro {
 				strpos( $_SERVER['REQUEST_URI'], 'wordtwit_settings' ) !== false ||
 				strpos( $_SERVER['REQUEST_URI'], 'wordtwit_account_configuration' ) !== false ||
 				( strpos( $_SERVER['REQUEST_URI'], 'post.php' ) !== false && isset( $_GET['wordtwit_post_action'] ) ) ||
-				( isset( $_GET['page'] ) && $_GET['page'] == 'tweet_queue' )
+				( isset( $_GET['page'] ) && 'tweet_queue' == $_GET['page'] )
 			)
 		);
 	}
@@ -858,27 +859,18 @@ class WordTwitPro {
 	}
 
 	function wordtwit_admin_head() {
-//		$current_scheme = get_user_option( 'admin_color' );
 		$version_string = md5( WORDTWIT_VERSION );
 		$minfile        = WORDTWIT_DIR . '/admin/css/wordtwit-admin.min.css';
 
 		if ( $this->is_admin_section() ) {
 
 			if ( file_exists( $minfile ) ) {
-				echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . "/admin/css/wordtwit-admin.min.css?ver=" . $version_string . "' />\n";
+				echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . '/admin/css/wordtwit-admin.min.css?ver=' . $version_string . "' />\n";
 			} else {
-				echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . "/admin/css/wordtwit-admin.css?ver=" . $version_string . "' />\n";
+				echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . '/admin/css/wordtwit-admin.css?ver=' . $version_string . "' />\n";
 			}
-
-//			if ( $current_scheme === 'fresh' ) {
-//				echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . "/admin/css/wordtwit-admin-" . $current_scheme . ".css?ver=" . $version_string . "' />\n";
-//			}
-
-//			if ( eregi( "MSIE", getenv( "HTTP_USER_AGENT" ) ) || eregi( "Internet Explorer", getenv( "HTTP_USER_AGENT" ) ) ) {
-//				echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . "/admin/css/wordtwit-admin-ie.css?ver=" . $version_string . "' />\n";
-//			}
 		} else if ( $this->is_post_page() ) {
-			echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . "/admin/css/wordtwit-post-widget.css?ver=" . $version_string . "' />\n";
+			echo "<link rel='stylesheet' type='text/css' href='" . WORDTWIT_URL . '/admin/css/wordtwit-post-widget.css?ver=' . $version_string . "' />\n";
 		}
 	}
 
@@ -895,13 +887,13 @@ class WordTwitPro {
 				wp_enqueue_script( 'wordtwit-main', WORDTWIT_URL . '/admin/js/wordtwit-admin.min.js', array(
 					'wordtwit-plugins',
 					'jquery',
-					'jquery-ui-sortable'
+					'jquery-ui-sortable',
 				), $version_string );
 			} else {
 				wp_enqueue_script( 'wordtwit-main', WORDTWIT_URL . '/admin/js/wordtwit-admin.js', array(
 					'wordtwit-plugins',
 					'jquery',
-					'jquery-ui-sortable'
+					'jquery-ui-sortable',
 				), $version_string );
 			}
 
@@ -921,7 +913,7 @@ class WordTwitPro {
 				'unpublished'          => __( 'Unpublished', 'wordtwit-pro' ),
 				'reset_admin_settings' => __( 'Reset all WordTwit admin settings?', 'wordtwit-pro' ) . ' ' . __( 'This operation cannot be undone.', 'wordtwit-pro' ),
 				'custom_key_warning'   => __( 'Warning: Changing your consumer key or secret will require you to reauthorize all of your accounts.', 'wordtwit-pro' ),
-				'retweet_warning'      => __( 'Are you sure you would like to publish the tweet(s) for this post?', 'wordtwit-pro' )
+				'retweet_warning'      => __( 'Are you sure you would like to publish the tweet(s) for this post?', 'wordtwit-pro' ),
 			);
 
 			if ( isset( $_GET['post'] ) ) {
@@ -943,21 +935,16 @@ class WordTwitPro {
 		}
 	}
 
-	function wordtwit_admin_init() {
-		$is_wordtwit_page = ( strpos( $_SERVER['REQUEST_URI'], 'wordtwit-pro' ) !== false ) || ( strpos( $_SERVER['REQUEST_URI'], 'wordtwit_settings' ) !== false );;
-		$is_plugins_page = ( strpos( $_SERVER['REQUEST_URI'], 'plugins.php' ) !== false );
-	}
-
 	function wordtwit_admin_footer() {
 		global $post;
 
 		if ( $this->is_admin_section() || $this->is_post_page() ) {
 			echo "<script type='text/javascript'>\n";
-			if ( $post && isset( $post->ID ) && $post->post_type != 'tweet' ) {
+			if ( $post && isset( $post->ID ) && 'tweet' != $post->post_type ) {
 				require_once( WORDTWIT_DIR . '/include/post-box-functions.php' );
 
 				echo "var WordTwitPostID = '" . $post->ID . "';\n";
-				echo "var WordTwitTweetStatus = " . wordtwit_get_tweet_status() . ";\n";
+				echo 'var WordTwitTweetStatus = ' . wordtwit_get_tweet_status() . ";\n";
 				echo "var WordTwitLoadJS = '1';\n";
 			} else {
 				echo "var WordTwitLoadJS = '0';\n";
@@ -1029,13 +1016,13 @@ class WordTwitPro {
 		} else if ( isset( $this->post['tweet_log_submit'] ) ) {
 			if ( wp_verify_nonce( $this->post['tweet_log_nonce'], 'tweet_log' ) ) {
 				if ( current_user_can( 'delete_posts' ) ) {
-					if ( $this->post['tweet_action'] == 'trash' ) {
+					if ( 'trash' == $this->post['tweet_action'] ) {
 						foreach ( $this->post as $key => $value ) {
 							if ( preg_match( '#delete_tweet_(.*)#i', $key, $matches ) ) {
 								$tweet_to_delete = $matches[1];
 
 								$post_info = get_post( $tweet_to_delete );
-								if ( $post_info && $post_info->post_type == 'tweet' ) {
+								if ( 'tweet' == $post_info && $post_info->post_type ) {
 									wp_delete_post( $tweet_to_delete );
 								}
 							}
@@ -1092,7 +1079,6 @@ class WordTwitPro {
 				}
 			}
 
-
 			if ( ( $old_consumer_key != $settings->custom_consumer_key ) || ( $old_consumer_secret != $settings->custom_consumer_secret ) ) {
 				$settings->accounts = array();
 			}
@@ -1145,5 +1131,4 @@ class WordTwitPro {
 			return false;
 		}
 	}
-
 }
