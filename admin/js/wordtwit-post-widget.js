@@ -4,18 +4,18 @@ var wtEditingTweet;
 var wtSlideSpeed = 330;
 var wtChecker = '';
 
-function doWordTwitWidget() {	
+function doWordTwitWidget() {
 	if ( WordTwitLoadJS == 0 ) {
-		return;	
+		return;
 	}
 
 	/* Option Bar Click function (accounts, hashtags, schedule) */
-	jQuery( 'ul#wt-option-bar li.toggle' ).live( 'click', function(){
+	jQuery( 'ul#wt-option-bar li.toggle' ).on( 'click', function(){
 		var divToShow = jQuery( this ).attr( 'id' ) + '-box';
 		var thisId = jQuery( this ).attr( 'id' );
-		
+
 		if ( jQuery( this ).hasClass( 'active' ) ) {
-			jQuery( this ).removeClass( 'active' );	
+			jQuery( this ).removeClass( 'active' );
 			jQuery( '#wt-widget-bottom-wrap' ).slideUp( wtSlideSpeed );
 		} else {
 			jQuery( 'ul#wt-option-bar li.toggle' ).removeClass( 'active' );
@@ -27,61 +27,61 @@ function doWordTwitWidget() {
 	});
 
 	/* In-Place Editing Switch */
-	jQuery( 'p.wt-tweet-text' ).live( 'click', function(){
+	jQuery( 'p.wt-tweet-text' ).on( 'click', function(){
 		var ajax_params = {
 			post: WordTwitPostID
 		}
-		
+
 		var tweetTextArea = jQuery( this );
 		wtEditingTweet = tweetTextArea.html();
-		
+
 		jQuery( '#wt-post-box-spinner' ).fadeIn( 100 );
-		wtAdminAjax( 'get-tweet-template', ajax_params, function( result ) { 
+		wtAdminAjax( 'get-tweet-template', ajax_params, function( result ) {
 			//alert( result );
-			
+
 		//	var tweetText = jQuery( this ).text();
-			
+
 			var tweetText = result;
 
 			tweetTextArea.replaceWith( '<textarea id="wt-tweet-textarea">'+tweetText+'</textarea>' );
 			jQuery( '#wt-tweet-textarea' ).focus();
-			
+
 			jQuery( '#wt-post-box-spinner' ).fadeOut( 100 );
 		});
 	});
-	
+
 	/* Adding checkbox toggling when clicking on image or text for usability */
-	jQuery( '#wt-accounts-box li span, #wt-accounts-box li img' ).live( 'click', function(){
+	jQuery( '#wt-accounts-box li span, #wt-accounts-box li img' ).on( 'click', function(){
 		var chkbox = jQuery( this ).parent().find( ':checkbox' );
 		chkbox.attr( 'checked', !chkbox.attr( 'checked' ) );
 	});
-	
+
 	/* The mode reset link */
-	jQuery( '#wt-reset-link' ).live( 'click', function( e ) {
+	jQuery( '#wt-reset-link' ).on( 'click', function( e ) {
 		jQuery( '#tweet-mode-text' ).html( WordTwitProCustom.automatic ).removeClass( 'manual' ).attr( 'data-manual', '' );
-		
+
 		jQuery( '#wt-reset-link' ).hide();
-		
+
 		wtSavePostBoxData();
-		
+
 		var ajax_params = {
 			post: WordTwitPostID
 		}
-		
-		wtAdminAjax( 'update-post-data', ajax_params, function( result ) { 
+
+		wtAdminAjax( 'update-post-data', ajax_params, function( result ) {
 			jQuery( 'p.wt-tweet-text' ).html( result );
 			wtStartDraftCheck();
-		});	
+		});
 		e.preventDefault();
 	});
-	
+
 	/* Char count updater */
-	jQuery( 'textarea#wt-tweet-textarea' ).live( 'keyup', function( e ) {
+	jQuery( 'textarea#wt-tweet-textarea' ).on( 'keyup', function( e ) {
 		wtUpdateTweetCount();
 	});
-	
+
 	/* on carriage return or clicking outside textarea, save changes */
-	jQuery( 'textarea#wt-tweet-textarea' ).live( 'keydown blur', function( e ) {
+	jQuery( 'textarea#wt-tweet-textarea' ).on( 'keydown blur', function( e ) {
 		if ( e.type == 'keydown' ) {
 			var tweetText = jQuery( this ).val();
 			//make carriage returns save
@@ -90,87 +90,87 @@ function doWordTwitWidget() {
 				e.preventDefault();
 			}
 		} else {
-			wtSwapTextarea();			
+			wtSwapTextarea();
 		}
-	});	
+	});
 
 	/* Toggle for the recent/popular hashtag cloud, cookie saving */
-	jQuery( 'a#hashtag-toggle' ).live( 'click', function( e ){
+	jQuery( 'a#hashtag-toggle' ).on( 'click', function( e ){
 		if ( jQuery( 'ul#hashtag-cloud' ).hasClass( 'open' ) ) {
 			jQuery( 'ul#hashtag-cloud' ).slideUp( wtSlideSpeed ).removeClass( 'open' );
-			jQuery.cookie( 'wordtwit-pro-hashcloud', null );		
+			jQuery.cookie( 'wordtwit-pro-hashcloud', null );
 		} else {
-			jQuery.cookie( 'wordtwit-pro-hashcloud', 1, { expires: 365 } );		
-			jQuery( 'ul#hashtag-cloud' ).addClass( 'open' ).slideDown( wtSlideSpeed );		
+			jQuery.cookie( 'wordtwit-pro-hashcloud', 1, { expires: 365 } );
+			jQuery( 'ul#hashtag-cloud' ).addClass( 'open' ).slideDown( wtSlideSpeed );
 		}
 		e.preventDefault();
 	});
-	
+
 	/* Delete 'x' for added hashtags */
-	jQuery( 'ul.tagchecklist .hash-delete' ).live( 'click', function( e ) {
+	jQuery( 'ul.tagchecklist .hash-delete' ).on( 'click', function( e ) {
 		jQuery( this ).parents( 'li' ).remove();
 		wtSavePostBoxData();
 		wtUpdateHashTagClasses();
 
 		e.preventDefault();
 	});
-	
+
 	/* Status changer (will be published, do not tweet) */
-	jQuery( '#wt-edit-link, #wt-status-button' ).live( 'click', function( e ) {
-		jQuery( '#wt-notweet' ).slideToggle( wtSlideSpeed );		
+	jQuery( '#wt-edit-link, #wt-status-button' ).on( 'click', function( e ) {
+		jQuery( '#wt-notweet' ).slideToggle( wtSlideSpeed );
 		e.preventDefault();
 	});
-	
+
 	/* input for adding Hashtags */
-	jQuery( '#wt-tags-box input.button' ).live( 'click', function( e ) {
+	jQuery( '#wt-tags-box input.button' ).on( 'click', function( e ) {
 		wtSubmitHashtag();
 		e.preventDefault();
 	});
 
 	/* Allows carriage returns to add hashtags */
-	jQuery( '#wt-add-hashtag' ).live( 'keydown', function( e ){
+	jQuery( '#wt-add-hashtag' ).on( 'keydown', function( e ){
 		if ( e.keyCode == '13' ) {
 			wtSubmitHashtag();
 			e.preventDefault();
 		}
 	});
-	
+
 	/* Prevents post publishing if tweets are over 140 chars */
-	jQuery( '#publish' ).live( 'click', function( e ) {
+	jQuery( '#publish' ).on( 'click', function( e ) {
 		var tweetCount = parseFloat( jQuery( '#wt-count' ).html() );
 		if ( tweetCount > 140 ) {
 			alert( WordTwitProCustom.tweet_too_long );
 			jQuery( this ).removeClass( 'button-primary-disabled' );
 			jQuery( '#ajax-loading' ).css( 'visibility', 'hidden' );
 			e.preventDefault();
-			e.stopPropagation();	
+			e.stopPropagation();
 		}
 	});
-	
+
 	/* fires when the status is changed */
-	jQuery( '#wt-status-button' ).live( 'click', function() {
+	jQuery( '#wt-status-button' ).on( 'click', function() {
 		var currentValue = jQuery( '#wt-select-status' ).val();
 		if ( currentValue == 0 ) {
-			jQuery( '.wt-tweet-status span' ).html( WordTwitProCustom.disabled );	
+			jQuery( '.wt-tweet-status span' ).html( WordTwitProCustom.disabled );
 			jQuery( '#wordtwit-post-widget' ).addClass( 'disabled' );
 		} else {
 			if ( WordTwitTweetStatus == 0 ) {
 				jQuery( '.wt-tweet-status span' ).html( WordTwitProCustom.unpublished );
 			} else {
-				jQuery( '.wt-tweet-status span' ).html( 'Unknown' );	
+				jQuery( '.wt-tweet-status span' ).html( 'Unknown' );
 			}
 			jQuery( '#wordtwit-post-widget' ).removeClass( 'disabled' );
 		}
 		wtSavePostBoxData();
 	});
-	
+
 	/* Hashtag pool click adds to used hashtags, disables them once added */
-	jQuery( '#hashtag-cloud li' ).live( 'click', function() {
+	jQuery( '#hashtag-cloud li' ).on( 'click', function() {
 		if ( !jQuery( this ).hasClass( 'disabled' ) ) {
 			var hashTagName = jQuery( this ).find( '.name' );
 			wtAddHashTag( hashTagName.html() );
-			wtSavePostBoxData();	
-		}		
+			wtSavePostBoxData();
+		}
 	});
 
 	/* functions to fire onReady */
@@ -181,8 +181,8 @@ function doWordTwitWidget() {
 	wtSetupWidgetCookie();
 	wtUpdateHashTagClasses();
 	wtStartDraftCheck();
-	
-	jQuery( 'a.wt-tweet-now-button' ).live( 'click', function( e ) {
+
+	jQuery( 'a.wt-tweet-now-button' ).on( 'click', function( e ) {
 		if ( WordTwitProCustom.retweet_warning_enable == '1' ) {
 			if ( !confirm( WordTwitProCustom.retweet_warning ) ) {
 				e.preventDefault();
@@ -192,9 +192,9 @@ function doWordTwitWidget() {
 
 	/* Don't move this above, it needs to be at the end */
 	/* save the update post information whenever an account is toggled */
-	jQuery( '#wt-accounts-box input, #wt-sheduling select, #wt-select-times, #wt-select-delay' ).live( 'change', function() {
+	jQuery( '#wt-accounts-box input, #wt-sheduling select, #wt-select-times, #wt-select-delay' ).on( 'change', function() {
 		wtSavePostBoxData();
-	});	
+	});
 
 } /* end doc ready */
 
@@ -203,11 +203,11 @@ function doWordTwitWidget() {
 function wordTwitGetDraftText() {
 	var draftText = jQuery( '#post-status-info td.autosave-info #autosave' );
 	if ( draftText.length == 0 ) {
-		draftText = jQuery( '#post-status-info td.autosave-info .autosave-message' ).html();	
+		draftText = jQuery( '#post-status-info td.autosave-info .autosave-message' ).html();
 	} else {
 		draftText = draftText.html();
-	}	
-	
+	}
+
 	return draftText;
 }
 
@@ -219,9 +219,9 @@ function wtDraftSaveChecker() {
 	if ( draftText != wordTwitDraftText ) {
 		wordTwitDraftText = draftText;
 		wtSavePostBoxData();
-		console.log( 'WordTwit: Draft saved, updating WordTwit tweet title.' );	
+		console.log( 'WordTwit: Draft saved, updating WordTwit tweet title.' );
 	} else {
-		console.log( 'WordTwit: No WP draft title changes.' );	
+		console.log( 'WordTwit: No WP draft title changes.' );
 	}
 }
 
@@ -242,42 +242,42 @@ function clearDraftCheck(){
 
 /* Per-post cookie for option bar settings access  */
 function wtSetupWidgetCookie() {
-	jQuery( 'ul#wt-option-bar li' ).live( 'click', function() {
+	jQuery( 'ul#wt-option-bar li' ).on( 'click', function() {
 		var thisId = jQuery( this ).attr( 'id' );
 		if ( jQuery( this ).hasClass( 'active' ) ) {
 			jQuery.cookie( 'wordtwit-pro-' + WordTwitPostID, thisId, { expires: 1 } );
 		} else {
-			jQuery.cookie( 'wordtwit-pro-' + WordTwitPostID, null );		
+			jQuery.cookie( 'wordtwit-pro-' + WordTwitPostID, null );
 		}
 	});
-	
+
 	var cookieValue = jQuery.cookie( 'wordtwit-pro-' + WordTwitPostID );
 	if ( cookieValue ) {
 		jQuery( '#' + cookieValue ).click();
-	}	
+	}
 }
 
 /* Fired when the tweet text div is exited after in-place editing */
 function wtSwapTextarea() {
 	var textArea =	jQuery( '#wt-tweet-textarea' );
 	var tweetText = jQuery( textArea ).val();
-		
+
 	var ajax_params = {
 		post: WordTwitPostID,
 		tweet_template: tweetText
 	}
 
 	jQuery( '#wt-post-box-spinner' ).fadeIn( 100 );
-	wtAdminAjax( 'update-tweet-template', ajax_params, function( result ) { 
+	wtAdminAjax( 'update-tweet-template', ajax_params, function( result ) {
 		jQuery( textArea ).replaceWith( '<p class="wt-tweet-text">'+result+'</p>' ).remove();
 		if ( wtEditingTweet != result ) {
 			jQuery( '#tweet-mode-text' ).html( WordTwitProCustom.manual ).addClass( 'manual' ).attr( 'data-manual', '1' );
 			jQuery( '#wt-reset-link' ).show();
-					
+
 			// save the post data when the tweet text is changed
 			wtSavePostBoxData();
 		}
-		
+
 		jQuery( '#wt-post-box-spinner' ).fadeOut( 100 );
 	});
 }
@@ -287,19 +287,19 @@ function wtAddHashTag( hashTag ) {
 	var cleanedUpTag = jQuery.trim( hashTag );
 	var existingTag = jQuery( 'ul.tagchecklist' ).find( 'li#' + cleanedUpTag );
 	if ( !existingTag.length ) {
-		jQuery( 'ul.tagchecklist' ).append( '<li id="' + cleanedUpTag + '"><a href="#" class="hash-delete">X</a><span>' + cleanedUpTag + '</span></li>' );	
-	}	
-	
+		jQuery( 'ul.tagchecklist' ).append( '<li id="' + cleanedUpTag + '"><a href="#" class="hash-delete">X</a><span>' + cleanedUpTag + '</span></li>' );
+	}
+
 	wtUpdateHashTagClasses();
 }
 
 /* checks against the pool to add disabled classes to in-use hashtags */
 function wtUpdateHashTagClasses() {
 	jQuery( '#hashtag-cloud li' ).removeClass( 'disabled' );
-	
+
 	jQuery( 'ul.tagchecklist li span' ).each( function() {
 		var hashTag = jQuery( this ).html();
-		jQuery( '#hashtag-cloud li.' + hashTag + '-hashtag' ).addClass( 'disabled' );	
+		jQuery( '#hashtag-cloud li.' + hashTag + '-hashtag' ).addClass( 'disabled' );
 	});
 }
 
@@ -308,11 +308,11 @@ function wtSubmitHashtag() {
 	var newTag = jQuery( '#wt-add-hashtag' ).val();
 	var trimmedTag = newTag.replace(/ /g,'');
 	var splitTags = trimmedTag.split( ',' );
-	
+
 	jQuery( splitTags ).each( function() {
 		wtAddHashTag( this );
 	});
-	
+
 	jQuery( '#wt-add-hashtag' ).val( '' );
 	wtSavePostBoxData();
 }
@@ -332,19 +332,19 @@ function wtUpdateTweetCount() {
 	jQuery( charCount ).html( innerText.length );
 
 	jQuery( charCount ).removeClass();
-	
+
 	if ( innerText.length > 140 ) {
-		jQuery( charCount ).addClass( 'overchars' );	
+		jQuery( charCount ).addClass( 'overchars' );
 	} else if ( innerText.length > 134 ) {
 		jQuery( charCount ).addClass( 'warnchars' );
-	} 
+	}
 }
 
 /* Adds styling to the tweet itself in red to highlight character overage */
 function wtUpdateTweetDivStyle() {
 	var charCount = parseFloat( jQuery( '#wt-count' ).html() );
 	if ( charCount > 140 ) {
-		jQuery( 'p.wt-tweet-text' ).addClass( 'overchars' );	
+		jQuery( 'p.wt-tweet-text' ).addClass( 'overchars' );
 	} else {
 		jQuery( 'p.wt-tweet-text' ).removeClass( 'overchars' );
 	}
@@ -353,47 +353,47 @@ function wtUpdateTweetDivStyle() {
 /* The saving routine for the whole-shebang. */
 function wtSavePostBoxData() {
 	jQuery( '#wt-post-box-spinner' ).fadeIn( 100 );
-	
+
 	var ajax_params = {
 		manual: 0,
 		post: WordTwitPostID
 	};
-	
+
 	if ( jQuery( '.wt-tweet-mode span' ).attr( 'data-manual' ) == 1 ) {
 		ajax_params[ 'manual' ] = 1;
 		ajax_params[ 'tweet_text' ] =  jQuery( 'p.wt-tweet-text' ).html();
 		clearDraftCheck();
 	}
-	
+
 	jQuery( '#wt-accounts-box input' ).each( function() {
 		if ( jQuery( this ).attr( 'checked' ) ) {
 			var accountName = jQuery( this ).attr( 'name' );
 			ajax_params[ accountName ] = 1;
 		}
 	});
-	
+
 	var hashNum = 1;
 	jQuery( 'ul.tagchecklist li span' ).each( function() {
 		ajax_params[ 'hash_' + hashNum ] = jQuery( this ).html();
 		hashNum = hashNum + 1;
 	});
-	
+
 	ajax_params[ 'tweet_times' ] = jQuery( '#wt-select-times' ).val();
 	if ( ajax_params[ 'tweet_times' ] > 1 ) {
 		ajax_params[ 'tweet_sep_min' ] = jQuery( '#wt-select-mins' ).val();
 	}
-	
+
 	ajax_params[ 'tweet_delay' ] = jQuery( '#wt-select-delay' ).val();
 	ajax_params[ 'enabled' ] = jQuery( '#wt-select-status' ).val();
-		
-	wtAdminAjax( 'save-post-data', ajax_params, function( result ) { 
-		jQuery( 'img#wt-post-box-spinner' ).fadeOut( 100 );	
+
+	wtAdminAjax( 'save-post-data', ajax_params, function( result ) {
+		jQuery( 'img#wt-post-box-spinner' ).fadeOut( 100 );
 		jQuery( 'p.wt-tweet-text' ).html( result );
 		wtDisabledToggle();
 		wtUpdateTweetCount();
 		wtUpdateTweetDivStyle();
 		wtModeToggle();
-	});		
+	});
 }
 
 /* Adds and removes the disabled class from the widget. Needed for when the status is changed */
@@ -414,7 +414,7 @@ function wtScheduleSelect() {
 				break;
 			default:
 				jQuery( '#wt-sheduling' ).slideDown( wtSlideSpeed );
-				break;	
+				break;
 		}
 	}).change();
 }
@@ -424,14 +424,14 @@ function wtModeToggle() {
 	var ajax_params = {
 		post: WordTwitPostID
 	};
-	
-	wtAdminAjax( 'are-hash-tags-enabled', ajax_params, function( result ) { 
+
+	wtAdminAjax( 'are-hash-tags-enabled', ajax_params, function( result ) {
 		if ( result == 'yes' ) {
 			jQuery( '.wt-automatic' ).show();
-			jQuery( '.wt-manual' ).hide();			
+			jQuery( '.wt-manual' ).hide();
 		} else {
 			jQuery( '.wt-automatic' ).hide();
-			jQuery( '.wt-manual' ).show();		
+			jQuery( '.wt-manual' ).show();
 		}
 	});
 	/*
@@ -440,24 +440,24 @@ function wtModeToggle() {
 		jQuery( '.wt-manual' ).show();
 	} else {
 		jQuery( '.wt-automatic' ).show();
-		jQuery( '.wt-manual' ).hide();	
+		jQuery( '.wt-manual' ).hide();
 	}
 	*/
 }
 
 /* The WordTwit Admin Ajax function */
-function wtAdminAjax( actionName, actionParams, callback ) {	
+function wtAdminAjax( actionName, actionParams, callback ) {
 	var ajaxData = {
 		action: "wordtwit_ajax",
 		wordtwit_action: actionName,
 		wordtwit_nonce: WordTwitProCustom.admin_nonce
 	};
-	
+
 	for ( name in actionParams ) { ajaxData[name] = actionParams[name]; }
 
 	jQuery.post( ajaxurl, ajaxData, function( result ) {
-		callback( result );	
-	});	
+		callback( result );
+	});
 }
 
 jQuery( document ).ready( function() { if ( jQuery( '#wordtwit-post-widget' ).length ) { doWordTwitWidget(); } } );
