@@ -1,8 +1,8 @@
 # WordTwit - WordPress Twitter Plugin
 Contributors: BraveNewCode, dalemugford, duanestorey   
-Requires at least: 3.6   
+Requires at least: 4.5  
 Tested up to: 4.0   
-Stable tag: 3.7   
+Stable tag: 4.0   
 
 ## Disclaimer/creds
 I've personally been a fan of WordTwit for 3+ years now.  I have a client who still uses it to this day and has had it since 
@@ -47,6 +47,13 @@ WordTwit Tweetlog Panel
 
 
 ## Changelog
+
+### Version 4.0
+
+* Update Javascript deprecated calls - Fixes [#7](https://github.com/JayWood/wordtwit-v2/issues/7)
+* Logging Overhaul - Fixed [#8](https://github.com/JayWood/wordtwit-v2/issues/8)
+* Removed `get_currentuserinfo()` deprecation - Fixed [#2](https://github.com/JayWood/wordtwit-v2/issues/2)
+* A **TON** of code cleanup!
 
 ### Version 3.7
 

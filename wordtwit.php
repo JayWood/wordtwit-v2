@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordTwit Twitter Plugin
 Plugin URI: http://wordpress.org/plugins/wordtwit/
-Version: 3.7
+Version: 4.0
 Description: All-new version of the popular WordPress to Twitter publishing tool!
 Author: BraveNewCode
 Author URI: http://www.bravenewcode.com
@@ -17,7 +17,7 @@ License: GNU General Public License 2.0 (GPL) http://www.gnu.org/licenses/gpl.ht
 */
 
 // Should not have spaces in it, same as above
-define( 'WORDTWIT_VERSION', '3.7' );
+define( 'WORDTWIT_VERSION', '4.0' );
 
 // Configuration
 require_once( 'include/config.php' );
