@@ -108,7 +108,7 @@ class WordTwitOAuth {
 		return false;
 	}
 
-	function do_request( $url, $oauth_header, $body_params = '', $use_get_request = false ) {
+	function do_request( $url, $oauth_header, $body_params = array(), $use_get_request = false ) {
 		WORDTWIT_DEBUG( 'Doing POST request, OAUTH header is ' . $oauth_header );
 
 		$request = new WP_Http;
