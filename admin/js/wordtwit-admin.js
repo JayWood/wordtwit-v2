@@ -33,14 +33,13 @@ function wtAccountPage() {
 		if ( !twitterAddButton.attr( 'disabled' ) ) {
 			twitterAddButton.on( 'click', function( e ) {
 				e.preventDefault();
+
 				if ( !twitterAddButton.attr( 'disabled' ) ) {
 					twitterAddButton.attr( 'disabled', 'disabled' );
 					wtAdminAjax( 'twitter-add', {}, function( result ) {
 						window.location.href = result;
 					});
 				}
-
-				e.preventDefault();
 			});
 		}
 	}
